@@ -1,0 +1,28 @@
+Command line:
+   tb_divisor_frequencia_10Hz_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  41597
+
+Fri May 19 05:00:43 2023
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 198.722 Meg
+
+ Total Signals          : 5
+ Total Nets             : 3
+ Total Signal Drivers   : 3
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 3
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 487
+
+ Total Simulation Time: 58.1 sec
+
+ Current Memory Usage: 276.32 Meg
+
+Fri May 19 05:04:32 2023
+

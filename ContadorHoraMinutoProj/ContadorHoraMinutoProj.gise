@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ContadorHoraMinutoProj.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ContadorHoraMinuto.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ContadorHoraMinuto.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ContadorHoraMinuto.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ContadorHoraMinuto.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ContadorHoraMinuto.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ContadorHoraMinuto.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ContadorHoraMinuto.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ContadorHoraMinuto.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ContadorHoraMinuto_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ContadorHoraMinuto_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ContadorHoraMinuto_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ContadorHoraMinuto_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ContadorHoras.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ContadorHoras.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ContadorHoras.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ContadorHoras.syr"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="ContadorHoras.vhi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ContadorHoras.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ContadorHoras_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ContadorHoras_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ContadorHoras_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ContadorHoras_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="ContadorMinutos.vhi"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_hora_minuto_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_hora_minuto_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_hora_minuto_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1684719050" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1684719050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684719571" xil_pn:in_ck="-4853533992224440337" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1684719571">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../Contador0a2Proj/Contador0a2.vhd"/>
+      <outfile xil_pn:name="../Contador0a5Proj/Contador0a5.vhd"/>
+      <outfile xil_pn:name="../Contador0a9Proj/Contador0a9.vhd"/>
+      <outfile xil_pn:name="../Contador0a9Proj/Contador0a9Reset3OnFlag.vhd"/>
+      <outfile xil_pn:name="../ContadorHorasProj/ContadorHoras.vhd"/>
+      <outfile xil_pn:name="../ContadorMinutosProj/ContadorMinutos.vhd"/>
+      <outfile xil_pn:name="ContadorHoraMinuto.vhd"/>
+      <outfile xil_pn:name="tb_hora_minuto.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1684719050" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8089603142295216784" xil_pn:start_ts="1684719050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684719050" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4687930840893179762" xil_pn:start_ts="1684719050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684719050" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-669207829924855314" xil_pn:start_ts="1684719050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684719571" xil_pn:in_ck="-4853533992224440337" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1684719571">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../Contador0a2Proj/Contador0a2.vhd"/>
+      <outfile xil_pn:name="../Contador0a5Proj/Contador0a5.vhd"/>
+      <outfile xil_pn:name="../Contador0a9Proj/Contador0a9.vhd"/>
+      <outfile xil_pn:name="../Contador0a9Proj/Contador0a9Reset3OnFlag.vhd"/>
+      <outfile xil_pn:name="../ContadorHorasProj/ContadorHoras.vhd"/>
+      <outfile xil_pn:name="../ContadorMinutosProj/ContadorMinutos.vhd"/>
+      <outfile xil_pn:name="ContadorHoraMinuto.vhd"/>
+      <outfile xil_pn:name="tb_hora_minuto.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1684719575" xil_pn:in_ck="-4853533992224440337" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6726807218693069374" xil_pn:start_ts="1684719571">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_hora_minuto_beh.prj"/>
+      <outfile xil_pn:name="tb_hora_minuto_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1684719576" xil_pn:in_ck="-5486953666068206359" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7651360338185078001" xil_pn:start_ts="1684719575">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_hora_minuto_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1684717981" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1684717981">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684717981" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7752909917755663611" xil_pn:start_ts="1684717981">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684717981" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-669207829924855314" xil_pn:start_ts="1684717981">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684717981" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1684717981">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684717981" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1957368062222982595" xil_pn:start_ts="1684717981">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684717981" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1684717981">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684717981" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5609512842010533112" xil_pn:start_ts="1684717981">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684717995" xil_pn:in_ck="-297630484000447515" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-6580588907512254741" xil_pn:start_ts="1684717981">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ContadorHoraMinuto.lso"/>
+      <outfile xil_pn:name="ContadorHoraMinuto.ngc"/>
+      <outfile xil_pn:name="ContadorHoraMinuto.ngr"/>
+      <outfile xil_pn:name="ContadorHoraMinuto.prj"/>
+      <outfile xil_pn:name="ContadorHoraMinuto.stx"/>
+      <outfile xil_pn:name="ContadorHoraMinuto.syr"/>
+      <outfile xil_pn:name="ContadorHoraMinuto.xst"/>
+      <outfile xil_pn:name="ContadorHoraMinuto_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

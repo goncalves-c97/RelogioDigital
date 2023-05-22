@@ -1,0 +1,26 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/Documents/ContadorMinutosProj/tb_contadorMinutos_isim_beh.exe -prj /home/ise/Documents/ContadorMinutosProj/tb_contadorMinutos_beh.prj work.tb_contadorMinutos 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Documents/ContadorMinutosProj/../Contador0a9Proj/Contador0a9.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/ContadorMinutosProj/../Contador0a5Proj/Contador0a5.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/ContadorMinutosProj/ContadorMinutos.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/ContadorMinutosProj/tb_contadorMinutos.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96824 KB
+Fuse CPU Usage: 1680 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity Contador0a5 [contador0a5_default]
+Compiling architecture behavioral of entity Contador0a9 [contador0a9_default]
+Compiling architecture behavioral of entity ContadorMinutos [contadorminutos_default]
+Compiling architecture behavior of entity tb_contadorminutos
+Time Resolution for simulation is 1ps.
+Compiled 10 VHDL Units
+Built simulation executable /home/ise/Documents/ContadorMinutosProj/tb_contadorMinutos_isim_beh.exe
+Fuse Memory Usage: 111516 KB
+Fuse CPU Usage: 1890 ms
+GCC CPU Usage: 2670 ms

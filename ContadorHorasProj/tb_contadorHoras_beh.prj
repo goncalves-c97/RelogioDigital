@@ -1,0 +1,4 @@
+vhdl work "../Contador0a9Proj/Contador0a9Reset3OnFlag.vhd"
+vhdl work "../Contador0a2Proj/Contador0a2.vhd"
+vhdl work "ContadorHoras.vhd"
+vhdl work "tb_contadorHoras.vhd"

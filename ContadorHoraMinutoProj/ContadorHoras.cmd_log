@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/Documents/ContadorHoraMinutoProj/ContadorHoras.xst" -ofn "/home/ise/Documents/ContadorHoraMinutoProj/ContadorHoras.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/ContadorHoraMinutoProj/ContadorHoras.xst" -ofn "/home/ise/Documents/ContadorHoraMinutoProj/ContadorHoras.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/ContadorHoraMinutoProj/ContadorHoras.xst" -ofn "/home/ise/Documents/ContadorHoraMinutoProj/ContadorHoras.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/ContadorHoraMinutoProj/ContadorHoras.xst" -ofn "/home/ise/Documents/ContadorHoraMinutoProj/ContadorHoras.syr" 
+vhdtdtfi -prj ContadorHoraMinutoProj -o /home/ise/Documents/ContadorHoraMinutoProj/ContadorHoras.vhi -module ContadorHoras -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../ContadorHorasProj/ContadorHoras.vhd 
+vhdtdtfi -prj ContadorHoraMinutoProj -o /home/ise/Documents/ContadorHoraMinutoProj/ContadorHoras.vhi -module ContadorHoras -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../ContadorHorasProj/ContadorHoras.vhd 

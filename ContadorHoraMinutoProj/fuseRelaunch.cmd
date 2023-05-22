@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Documents/ContadorHoraMinutoProj/tb_hora_minuto_isim_beh.exe" -prj "/home/ise/Documents/ContadorHoraMinutoProj/tb_hora_minuto_beh.prj" "work.tb_hora_minuto" 

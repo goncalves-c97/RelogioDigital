@@ -1,0 +1,48 @@
+V3 28
+FL /home/ise/Documents/Contador0a2Proj/Contador0a2.vhd 2023/05/22.00:42:19 P.20131013
+EN work/Contador0a2 1684717989 \
+      FL /home/ise/Documents/Contador0a2Proj/Contador0a2.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Contador0a2/Behavioral 1684717990 \
+      FL /home/ise/Documents/Contador0a2Proj/Contador0a2.vhd EN work/Contador0a2 1684717989
+FL /home/ise/Documents/Contador0a5Proj/Contador0a5.vhd 2023/05/22.00:56:43 P.20131013
+EN work/Contador0a5 1684717985 \
+      FL /home/ise/Documents/Contador0a5Proj/Contador0a5.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Contador0a5/Behavioral 1684717986 \
+      FL /home/ise/Documents/Contador0a5Proj/Contador0a5.vhd EN work/Contador0a5 1684717985
+FL /home/ise/Documents/Contador0a9Proj/Contador0a9.vhd 2023/05/22.00:55:54 P.20131013
+EN work/Contador0a9 1684717987 \
+      FL /home/ise/Documents/Contador0a9Proj/Contador0a9.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Contador0a9/Behavioral 1684717988 \
+      FL /home/ise/Documents/Contador0a9Proj/Contador0a9.vhd EN work/Contador0a9 1684717987
+FL /home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd 2023/05/22.00:53:51 P.20131013
+EN work/Contador0a9Reset3OnFlag 1684717991 \
+      FL /home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Contador0a9Reset3OnFlag/Behavioral 1684717992 \
+      FL /home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd \
+      EN work/Contador0a9Reset3OnFlag 1684717991
+FL /home/ise/Documents/ContadorHoraMinutoProj/Contador0a9.vhd 2023/05/21.19:16:13 P.20131013
+FL /home/ise/Documents/ContadorHoraMinutoProj/ContadorHoraMinuto.vhd 2023/05/22.01:08:38 P.20131013
+EN work/ContadorHoraMinuto 1684717997 \
+      FL /home/ise/Documents/ContadorHoraMinutoProj/ContadorHoraMinuto.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ContadorHoraMinuto/Behavioral 1684717998 \
+      FL /home/ise/Documents/ContadorHoraMinutoProj/ContadorHoraMinuto.vhd \
+      EN work/ContadorHoraMinuto 1684717997 CP ContadorHoras CP ContadorMinutos
+FL /home/ise/Documents/ContadorHorasProj/ContadorHoras.vhd 2023/05/22.01:04:33 P.20131013
+EN work/ContadorHoras 1684717993 \
+      FL /home/ise/Documents/ContadorHorasProj/ContadorHoras.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ContadorHoras/Behavioral 1684717994 \
+      FL /home/ise/Documents/ContadorHorasProj/ContadorHoras.vhd \
+      EN work/ContadorHoras 1684717993 CP Contador0a2 CP Contador0a9Reset3OnFlag
+FL /home/ise/Documents/ContadorMinutosProj/ContadorMinutos.vhd 2023/05/22.01:00:02 P.20131013
+EN work/ContadorMinutos 1684717995 \
+      FL /home/ise/Documents/ContadorMinutosProj/ContadorMinutos.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ContadorMinutos/Behavioral 1684717996 \
+      FL /home/ise/Documents/ContadorMinutosProj/ContadorMinutos.vhd \
+      EN work/ContadorMinutos 1684717995 CP Contador0a5 CP Contador0a9

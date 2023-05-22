@@ -1,0 +1,4 @@
+vhdl work "../Contador0a9Proj/Contador0a9.vhd"
+vhdl work "../Contador0a5Proj/Contador0a5.vhd"
+vhdl work "ContadorMinutos.vhd"
+vhdl work "tb_contadorMinutos.vhd"

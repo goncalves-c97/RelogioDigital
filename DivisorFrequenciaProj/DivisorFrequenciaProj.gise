@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="DivisorFrequenciaProj.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DivisorFrequencia.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DivisorFrequencia.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="DivisorFrequencia.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="DivisorFrequencia.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DivisorFrequencia.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="DivisorFrequencia.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DivisorFrequencia.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DivisorFrequencia.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DivisorFrequencia_10Hz.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DivisorFrequencia_10Hz.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="DivisorFrequencia_10Hz.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="DivisorFrequencia_10Hz.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DivisorFrequencia_10Hz.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="DivisorFrequencia_10Hz.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DivisorFrequencia_10Hz.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DivisorFrequencia_10Hz.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DivisorFrequencia_10Hz_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DivisorFrequencia_10Hz_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DivisorFrequencia_1Hz_10Hz.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DivisorFrequencia_1Hz_10Hz.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DivisorFrequencia_1Hz_10Hz.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DivisorFrequencia_1Hz_10Hz.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DivisorFrequencia_1Hz_10Hz.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DivisorFrequencia_1Hz_10Hz_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DivisorFrequencia_1Hz_10Hz_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DivisorFrequencia_1Hz_10Hz_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DivisorFrequencia_1Hz_10Hz_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DivisorFrequencia_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DivisorFrequencia_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DivisorFrequencia_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DivisorFrequencia_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_divisor_frequencia_10Hz_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_divisor_frequencia_60Hz_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_divisor_frequencia_60Hz_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_divisor_frequencia_60Hz_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_divisor_frequencia_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1684464936" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1684464936">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684473038" xil_pn:in_ck="6272365058420446882" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1684473037">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DivisorFrequencia.vhd"/>
+      <outfile xil_pn:name="DivisorFrequencia_60Hz.vhd"/>
+      <outfile xil_pn:name="tb_divisor_frequencia.vhd"/>
+      <outfile xil_pn:name="tb_divisor_frequencia_60Hz.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1684472939" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4865866439867292364" xil_pn:start_ts="1684472939">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684472939" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3375508432417826762" xil_pn:start_ts="1684472939">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684471743" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2964680839951285363" xil_pn:start_ts="1684471743">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684473038" xil_pn:in_ck="6272365058420446882" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1684473038">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DivisorFrequencia.vhd"/>
+      <outfile xil_pn:name="DivisorFrequencia_60Hz.vhd"/>
+      <outfile xil_pn:name="tb_divisor_frequencia.vhd"/>
+      <outfile xil_pn:name="tb_divisor_frequencia_60Hz.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1684473046" xil_pn:in_ck="6272365058420446882" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4991911484319776458" xil_pn:start_ts="1684473038">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_divisor_frequencia_60Hz_beh.prj"/>
+      <outfile xil_pn:name="tb_divisor_frequencia_60Hz_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1684473047" xil_pn:in_ck="-6594255133428449989" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4681109654423728105" xil_pn:start_ts="1684473046">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_divisor_frequencia_60Hz_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1684471658" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1684471658">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684471658" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5925139945842821206" xil_pn:start_ts="1684471658">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684471658" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="2964680839951285363" xil_pn:start_ts="1684471658">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684471658" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1684471658">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684471658" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3148531835576014488" xil_pn:start_ts="1684471658">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684471658" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1684471658">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684471658" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="4523822119799934077" xil_pn:start_ts="1684471658">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684471678" xil_pn:in_ck="8624241808096914387" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="2832651991084673616" xil_pn:start_ts="1684471658">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="DivisorFrequencia.ngr"/>
+      <outfile xil_pn:name="DivisorFrequencia_10Hz.lso"/>
+      <outfile xil_pn:name="DivisorFrequencia_10Hz.ngc"/>
+      <outfile xil_pn:name="DivisorFrequencia_10Hz.ngr"/>
+      <outfile xil_pn:name="DivisorFrequencia_10Hz.prj"/>
+      <outfile xil_pn:name="DivisorFrequencia_10Hz.stx"/>
+      <outfile xil_pn:name="DivisorFrequencia_10Hz.syr"/>
+      <outfile xil_pn:name="DivisorFrequencia_10Hz.xst"/>
+      <outfile xil_pn:name="DivisorFrequencia_10Hz_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Documents/ControladorDemuxProj/tb_controlador_demux_isim_beh.exe" -prj "/home/ise/Documents/ControladorDemuxProj/tb_controlador_demux_beh.prj" "work.tb_controlador_demux" 

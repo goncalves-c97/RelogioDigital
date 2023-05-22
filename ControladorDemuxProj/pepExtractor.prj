@@ -1,0 +1,3 @@
+work	"../Contador0a3Proj/Contador0a3.vhd"
+work	"../Demux4x1bitProj/Demux4x1bit.vhd"
+work	"ControladorDemux.vhd"

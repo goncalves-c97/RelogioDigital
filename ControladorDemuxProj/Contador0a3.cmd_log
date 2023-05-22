@@ -1,0 +1,1 @@
+vhdtdtfi -prj ControladorDemuxProj -o /home/ise/Documents/ControladorDemuxProj/Contador0a3.vhi -module Contador0a3 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../Contador0a3Proj/Contador0a3.vhd 

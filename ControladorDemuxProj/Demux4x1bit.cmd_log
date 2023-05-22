@@ -1,0 +1,1 @@
+vhdtdtfi -prj ControladorDemuxProj -o /home/ise/Documents/ControladorDemuxProj/Demux4x1bit.vhi -module Demux4x1bit -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../Demux4x1bitProj/Demux4x1bit.vhd 

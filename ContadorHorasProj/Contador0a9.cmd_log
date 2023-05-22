@@ -1,0 +1,1 @@
+vhdtdtfi -prj ContadorHorasProj -o /home/ise/Documents/ContadorHorasProj/Contador0a9.vhi -module Contador0a9 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../Contador0a9Proj/Contador0a9.vhd 

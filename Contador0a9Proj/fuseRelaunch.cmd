@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Documents/Contador0a9Proj/tb_contador0a9Reset3OnFlag_isim_beh.exe" -prj "/home/ise/Documents/Contador0a9Proj/tb_contador0a9Reset3OnFlag_beh.prj" "work.tb_contador0a9Reset3OnFlag" 

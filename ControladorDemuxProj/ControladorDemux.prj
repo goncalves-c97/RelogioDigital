@@ -1,0 +1,3 @@
+vhdl work "../Demux4x1bitProj/Demux4x1bit.vhd"
+vhdl work "../Contador0a3Proj/Contador0a3.vhd"
+vhdl work "ControladorDemux.vhd"

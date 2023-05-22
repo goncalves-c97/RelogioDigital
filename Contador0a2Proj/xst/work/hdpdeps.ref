@@ -1,0 +1,7 @@
+V3 3
+FL /home/ise/Documents/Contador0a2Proj/Contador0a2.vhd 2023/05/22.00:37:57 P.20131013
+EN work/Contador0a2 1684715882 \
+      FL /home/ise/Documents/Contador0a2Proj/Contador0a2.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Contador0a2/Behavioral 1684715883 \
+      FL /home/ise/Documents/Contador0a2Proj/Contador0a2.vhd EN work/Contador0a2 1684715882

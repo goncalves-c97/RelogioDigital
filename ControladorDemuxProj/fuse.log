@@ -1,0 +1,26 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/Documents/ControladorDemuxProj/tb_controlador_demux_isim_beh.exe -prj /home/ise/Documents/ControladorDemuxProj/tb_controlador_demux_beh.prj work.tb_controlador_demux 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Documents/ControladorDemuxProj/../Demux4x1bitProj/Demux4x1bit.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/ControladorDemuxProj/../Contador0a3Proj/Contador0a3.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/ControladorDemuxProj/tb_controlador_demux.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96840 KB
+Fuse CPU Usage: 1160 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity Contador0a3 [contador0a3_default]
+Compiling architecture behavioral of entity Demux4x1bit [demux4x1bit_default]
+Compiling architecture behavioral of entity ControladorDemux [controladordemux_default]
+Compiling architecture behavior of entity tb_controlador_demux
+Time Resolution for simulation is 1ps.
+Compiled 10 VHDL Units
+Built simulation executable /home/ise/Documents/ControladorDemuxProj/tb_controlador_demux_isim_beh.exe
+Fuse Memory Usage: 111568 KB
+Fuse CPU Usage: 1320 ms
+GCC CPU Usage: 230 ms

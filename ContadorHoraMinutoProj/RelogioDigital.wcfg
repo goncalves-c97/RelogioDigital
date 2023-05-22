@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Documents/ContadorHoraMinutoProj/tb_hora_minuto_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_hora_minuto" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_hora_minuto/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hora_minuto/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hora_minuto/adj_dh" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adj_dh</obj_property>
+      <obj_property name="ObjectShortName">adj_dh</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hora_minuto/adj_uh" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adj_uh</obj_property>
+      <obj_property name="ObjectShortName">adj_uh</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hora_minuto/adj_dm" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adj_dm</obj_property>
+      <obj_property name="ObjectShortName">adj_dm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hora_minuto/adj_um" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adj_um</obj_property>
+      <obj_property name="ObjectShortName">adj_um</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hora_minuto/lap_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lap_enable</obj_property>
+      <obj_property name="ObjectShortName">lap_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hora_minuto/lap" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lap</obj_property>
+      <obj_property name="ObjectShortName">lap</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hora_minuto/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus27" type="vbus" db_ref_id="1">
+      <obj_property name="label">UM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <wvobject fp_name="/tb_hora_minuto/output[3]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">output[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hora_minuto/output[2]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">output[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hora_minuto/output[1]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">output[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hora_minuto/output[0]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">output[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus32" type="vbus" db_ref_id="1">
+      <obj_property name="label">DM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <wvobject fp_name="/tb_hora_minuto/output[7]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">output[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hora_minuto/output[6]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">output[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hora_minuto/output[5]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">output[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hora_minuto/output[4]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">output[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus37" type="vbus" db_ref_id="1">
+      <obj_property name="label">UH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <wvobject fp_name="/tb_hora_minuto/output[11]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">output[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hora_minuto/output[10]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">output[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hora_minuto/output[9]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">output[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hora_minuto/output[8]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">output[8]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus42" type="vbus" db_ref_id="1">
+      <obj_property name="label">DH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <wvobject fp_name="/tb_hora_minuto/output[15]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">output[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hora_minuto/output[14]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">output[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hora_minuto/output[13]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">output[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hora_minuto/output[12]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">output[12]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_hora_minuto/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

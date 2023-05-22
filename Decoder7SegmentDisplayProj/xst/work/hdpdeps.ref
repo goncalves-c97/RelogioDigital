@@ -1,0 +1,8 @@
+V3 3
+FL /home/ise/Documents/Decoder7SegmentDisplayProj/decoder7seg.vhd 2023/03/11.14:07:43 P.20131013
+EN work/decoder7seg 1678543715 \
+      FL /home/ise/Documents/Decoder7SegmentDisplayProj/decoder7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/decoder7seg/Behavioral 1678543716 \
+      FL /home/ise/Documents/Decoder7SegmentDisplayProj/decoder7seg.vhd \
+      EN work/decoder7seg 1678543715

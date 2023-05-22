@@ -1,0 +1,14 @@
+AR contadorhoraminuto behavioral /home/ise/Documents/ContadorHoraMinutoProj/ContadorHoraMinuto.vhd sub00/vhpl05 1684717998
+AR contador0a9 behavioral /home/ise/Documents/Contador0a9Proj/Contador0a9.vhd sub00/vhpl09 1684717988
+AR contador0a5 behavioral /home/ise/Documents/Contador0a5Proj/Contador0a5.vhd sub00/vhpl07 1684717986
+AR contador0a9reset3onflag behavioral /home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd sub00/vhpl13 1684717992
+EN contadorhoras NULL /home/ise/Documents/ContadorHorasProj/ContadorHoras.vhd sub00/vhpl00 1684717993
+EN contador0a2 NULL /home/ise/Documents/Contador0a2Proj/Contador0a2.vhd sub00/vhpl10 1684717989
+EN contador0a5 NULL /home/ise/Documents/Contador0a5Proj/Contador0a5.vhd sub00/vhpl06 1684717985
+EN contador0a9 NULL /home/ise/Documents/Contador0a9Proj/Contador0a9.vhd sub00/vhpl08 1684717987
+AR contadorhoras behavioral /home/ise/Documents/ContadorHorasProj/ContadorHoras.vhd sub00/vhpl01 1684717994
+AR contadorminutos behavioral /home/ise/Documents/ContadorMinutosProj/ContadorMinutos.vhd sub00/vhpl03 1684717996
+EN contadorminutos NULL /home/ise/Documents/ContadorMinutosProj/ContadorMinutos.vhd sub00/vhpl02 1684717995
+AR contador0a2 behavioral /home/ise/Documents/Contador0a2Proj/Contador0a2.vhd sub00/vhpl11 1684717990
+EN contadorhoraminuto NULL /home/ise/Documents/ContadorHoraMinutoProj/ContadorHoraMinuto.vhd sub00/vhpl04 1684717997
+EN contador0a9reset3onflag NULL /home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd sub00/vhpl12 1684717991

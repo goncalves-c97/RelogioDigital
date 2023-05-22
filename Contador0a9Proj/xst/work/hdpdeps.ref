@@ -1,0 +1,14 @@
+V3 6
+FL /home/ise/Documents/Contador0a9Proj/Contador0a9.vhd 2023/05/22.00:55:54 P.20131013
+EN work/Contador0a9 1684716959 \
+      FL /home/ise/Documents/Contador0a9Proj/Contador0a9.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Contador0a9/Behavioral 1684716960 \
+      FL /home/ise/Documents/Contador0a9Proj/Contador0a9.vhd EN work/Contador0a9 1684716959
+FL /home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd 2023/05/22.00:53:51 P.20131013
+EN work/Contador0a9Reset3OnFlag 1684716835 \
+      FL /home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Contador0a9Reset3OnFlag/Behavioral 1684716836 \
+      FL /home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd \
+      EN work/Contador0a9Reset3OnFlag 1684716835

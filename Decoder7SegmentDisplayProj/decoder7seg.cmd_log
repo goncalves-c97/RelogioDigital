@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/Documents/Decoder7SegmentDisplayProj/decoder7seg.xst" -ofn "/home/ise/Documents/Decoder7SegmentDisplayProj/decoder7seg.syr" 
+netgen -intstyle ise -ar Structure -tm decoder7seg -w -dir netgen/synthesis -ofmt vhdl -sim decoder7seg.ngc decoder7seg_synthesis.vhd 

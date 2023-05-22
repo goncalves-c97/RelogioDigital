@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Documents/Decoder7SegmentDisplayProj/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Documents/Decoder7SegmentDisplayProj/xst"
+elaborate
+-ifn decoder7seg.prj
+-ifmt mixed

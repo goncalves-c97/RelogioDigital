@@ -1,0 +1,11 @@
+V3 5
+FL /home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia.vhd 2023/05/19.04:47:38 P.20131013
+AR work/DivisorFrequencia_1Hz_10Hz/Behavioral 1684471505 \
+      FL /home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia.vhd \
+      EN work/DivisorFrequencia_1Hz_10Hz 1684471504
+EN work/DivisorFrequencia_10Hz 1684471664 \
+      FL /home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DivisorFrequencia_10Hz/Behavioral 1684471665 \
+      FL /home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia.vhd \
+      EN work/DivisorFrequencia_10Hz 1684471664

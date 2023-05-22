@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Documents/DivisorFrequenciaProj/tb_divisor_frequencia_60Hz_isim_beh.exe" -prj "/home/ise/Documents/DivisorFrequenciaProj/tb_divisor_frequencia_60Hz_beh.prj" "work.tb_divisor_frequencia_60Hz" 
