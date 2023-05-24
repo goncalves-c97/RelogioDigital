@@ -1,33 +1,16 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    01:58:40 05/19/2023 
--- Design Name: 
--- Module Name:    ControladorDemux - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
+-- Company: Faculdade Engenheiro Salvador Arena
 --
--- Dependencies: 
+-- Engineers: Carlos Adonias
+--			  	  Carlos Goncalves
+--			 	  Gabriel Teixeira
+-- 		 	  Johnny Messias
 --
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
+-- Teacher: Filippo Valiante
+-- Create Date:    22:58:40 19/05/2023 
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity ControladorDemux is
     Port ( INPUT : in   STD_LOGIC;
@@ -47,6 +30,7 @@ architecture Behavioral of ControladorDemux is
 		CLK : IN std_logic;
 		RST : IN std_logic;
 		LAP_ENABLE: IN std_logic;
+		ADJUST: IN std_logic;
 		LAP : OUT std_logic;
 		OUTPUT : OUT std_logic_vector(3 downto 0)
 		);
@@ -64,7 +48,7 @@ architecture Behavioral of ControladorDemux is
 	END COMPONENT;
 	
 	signal cont_demux : std_logic_vector (1 downto 0);
-	signal unused_signal : std_logic;
+	signal unused_signal : std_logic := '0';
 	signal unused_signal_2 : std_logic;
 	signal unused_signal_3: std_logic;
 begin
@@ -72,8 +56,9 @@ begin
 	Inst_Contador0a3: Contador0a3 PORT MAP(
 		CLK => SHIFT,
 		RST => RST,
-		LAP_ENABLE => '0',
+		LAP_ENABLE => '1',
 		LAP => unused_signal,
+		ADJUST => INPUT,
 		OUTPUT(0) => cont_demux(0),
 		OUTPUT(1) => cont_demux(1),
 		OUTPUT(2) => unused_signal_2,

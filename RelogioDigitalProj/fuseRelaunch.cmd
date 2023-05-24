@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Documents/RelogioDigitalProj/tb_relogio_digital_FD_isim_beh.exe" -prj "/home/ise/Documents/RelogioDigitalProj/tb_relogio_digital_FD_beh.prj" "work.tb_relogio_digital_FD" 

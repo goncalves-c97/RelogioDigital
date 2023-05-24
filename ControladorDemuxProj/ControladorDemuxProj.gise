@@ -31,6 +31,18 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ControladorDemux.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ControladorDemux.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ControladorDemux.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ControladorDemuxDisplay.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ControladorDemuxDisplay.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ControladorDemuxDisplay.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ControladorDemuxDisplay.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ControladorDemuxDisplay.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ControladorDemuxDisplay.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ControladorDemuxDisplay.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ControladorDemuxDisplay.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ControladorDemuxDisplay_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ControladorDemuxDisplay_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ControladorDemuxDisplay_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ControladorDemuxDisplay_xst.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="ControladorDemux_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="ControladorDemux_summary.html"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ControladorDemux_vhdl.prj"/>
@@ -42,6 +54,9 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_controlador_demux_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_controlador_demux_display_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_controlador_demux_display_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_controlador_demux_display_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_controlador_demux_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_controlador_demux_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
@@ -54,95 +69,100 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1684703077" xil_pn:in_ck="-2706736505843171348" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1684703077">
+    <transform xil_pn:end_ts="1684891746" xil_pn:in_ck="-5455350399758297761" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1684891746">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../Contador0a3Proj/Contador0a3.vhd"/>
-      <outfile xil_pn:name="../Demux4x1bitProj/Demux4x1bit.vhd"/>
-      <outfile xil_pn:name="ControladorDemux.vhd"/>
-      <outfile xil_pn:name="tb_controlador_demux.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1684462964" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7496823253726984204" xil_pn:start_ts="1684462964">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1684462964" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1906294705586924278" xil_pn:start_ts="1684462964">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1684462763" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8156679757125290472" xil_pn:start_ts="1684462763">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1684703077" xil_pn:in_ck="-2706736505843171348" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1684703077">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../Contador0a3Proj/Contador0a3.vhd"/>
-      <outfile xil_pn:name="../Demux4x1bitProj/Demux4x1bit.vhd"/>
-      <outfile xil_pn:name="ControladorDemux.vhd"/>
-      <outfile xil_pn:name="tb_controlador_demux.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1684703080" xil_pn:in_ck="-2706736505843171348" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4305857225519424330" xil_pn:start_ts="1684703077">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_controlador_demux_beh.prj"/>
-      <outfile xil_pn:name="tb_controlador_demux_isim_beh.exe"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1684703080" xil_pn:in_ck="2460545138505716141" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="437851384155661655" xil_pn:start_ts="1684703080">
+    <transform xil_pn:end_ts="1684891746" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7496823253726984204" xil_pn:start_ts="1684891746">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684891746" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1906294705586924278" xil_pn:start_ts="1684891746">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684891615" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8156679757125290472" xil_pn:start_ts="1684891615">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1684891746" xil_pn:in_ck="-5455350399758297761" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1684891746">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1684891750" xil_pn:in_ck="-5455350399758297761" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4305857225519424330" xil_pn:start_ts="1684891746">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_controlador_demux_isim_beh.wdb"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1684702983" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1684702983">
+    <transform xil_pn:end_ts="1684891750" xil_pn:in_ck="2460545138505716141" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="437851384155661655" xil_pn:start_ts="1684891750">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1684892156" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1684892156">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1684702983" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="5769686135091400431" xil_pn:start_ts="1684702983">
+    <transform xil_pn:end_ts="1684892156" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4856883471081544283" xil_pn:start_ts="1684892156">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1684702983" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8156679757125290472" xil_pn:start_ts="1684702983">
+    <transform xil_pn:end_ts="1684892156" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5243431697744562098" xil_pn:start_ts="1684892156">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1684702983" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1684702983">
+    <transform xil_pn:end_ts="1684892156" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1684892156">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1684702983" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5914116098883553837" xil_pn:start_ts="1684702983">
+    <transform xil_pn:end_ts="1684892156" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5462536200824680669" xil_pn:start_ts="1684892156">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1684702983" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1684702983">
+    <transform xil_pn:end_ts="1684892156" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1684892156">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1684702983" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1792372117933885090" xil_pn:start_ts="1684702983">
+    <transform xil_pn:end_ts="1684892156" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-9132001683867809384" xil_pn:start_ts="1684892156">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1684702997" xil_pn:in_ck="-7203215090658981666" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5651721511169032789" xil_pn:start_ts="1684702983">
+    <transform xil_pn:end_ts="1684892173" xil_pn:in_ck="9117418864035257611" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-923204356902798197" xil_pn:start_ts="1684892156">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="ControladorDemux.lso"/>
-      <outfile xil_pn:name="ControladorDemux.ngc"/>
-      <outfile xil_pn:name="ControladorDemux.ngr"/>
-      <outfile xil_pn:name="ControladorDemux.prj"/>
-      <outfile xil_pn:name="ControladorDemux.stx"/>
-      <outfile xil_pn:name="ControladorDemux.syr"/>
-      <outfile xil_pn:name="ControladorDemux.xst"/>
-      <outfile xil_pn:name="ControladorDemux_xst.xrpt"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="ControladorDemuxDisplay.lso"/>
+      <outfile xil_pn:name="ControladorDemuxDisplay.ngc"/>
+      <outfile xil_pn:name="ControladorDemuxDisplay.ngr"/>
+      <outfile xil_pn:name="ControladorDemuxDisplay.prj"/>
+      <outfile xil_pn:name="ControladorDemuxDisplay.stx"/>
+      <outfile xil_pn:name="ControladorDemuxDisplay.syr"/>
+      <outfile xil_pn:name="ControladorDemuxDisplay.xst"/>
+      <outfile xil_pn:name="ControladorDemuxDisplay_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>

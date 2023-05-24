@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/Documents/MuxProj/mux4x4.xst" -ofn "/home/ise/Documents/MuxProj/mux4x4.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/MuxProj/mux4x4.xst" -ofn "/home/ise/Documents/MuxProj/mux4x4.syr" 

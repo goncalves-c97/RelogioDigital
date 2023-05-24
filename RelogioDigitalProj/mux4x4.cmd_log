@@ -1,0 +1,1 @@
+vhdtdtfi -prj RelogioDigitalProj -o /home/ise/Documents/RelogioDigitalProj/mux4x4.vhi -module mux4x4 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../MuxProj/mux4x4.vhd 

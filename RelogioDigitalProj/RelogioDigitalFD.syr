@@ -1,0 +1,1228 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Reading design: RelogioDigitalFD.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RelogioDigitalFD.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RelogioDigitalFD"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : RelogioDigitalFD
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/Documents/Contador0a5Proj/Contador0a5.vhd" in Library work.
+Entity <contador0a5> compiled.
+Entity <contador0a5> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/Contador0a9Proj/Contador0a9.vhd" in Library work.
+Entity <contador0a9> compiled.
+Entity <contador0a9> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/Contador0a2Proj/Contador0a2.vhd" in Library work.
+Entity <contador0a2> compiled.
+Entity <contador0a2> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd" in Library work.
+Entity <contador0a9reset3onflag> compiled.
+Entity <contador0a9reset3onflag> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/Contador0a3Proj/Contador0a3.vhd" in Library work.
+Entity <contador0a3> compiled.
+Entity <contador0a3> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd" in Library work.
+Entity <demux4x1bit> compiled.
+Entity <demux4x1bit> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/Demux4x1bitProj/Demux4x1bit_rest1.vhd" in Library work.
+Entity <Demux4x1bit_rest1> compiled.
+Entity <Demux4x1bit_rest1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/ContadorHorasProj/ContadorHoras.vhd" in Library work.
+Entity <contadorhoras> compiled.
+Entity <contadorhoras> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/ContadorMinutosProj/ContadorMinutos.vhd" in Library work.
+Entity <contadorminutos> compiled.
+Entity <contadorminutos> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia.vhd" in Library work.
+Entity <divisorfrequencia_10hz> compiled.
+Entity <divisorfrequencia_10hz> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia_60Hz.vhd" in Library work.
+Entity <divisorfrequencia_60hz> compiled.
+Entity <divisorfrequencia_60hz> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/ContadorHoraMinutoProj/ContadorHoraMinuto.vhd" in Library work.
+Entity <contadorhoraminuto> compiled.
+Entity <contadorhoraminuto> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd" in Library work.
+Entity <controladordemuxdisplay> compiled.
+Entity <controladordemuxdisplay> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd" in Library work.
+Entity <controladordemux> compiled.
+Entity <controladordemux> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/Decoder7SegmentDisplayProj/decoder7seg.vhd" in Library work.
+Architecture behavioral of Entity decoder7seg is up to date.
+Compiling vhdl file "/home/ise/Documents/MuxProj/mux4x4.vhd" in Library work.
+Entity <mux4x4> compiled.
+Entity <mux4x4> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/RegisterProj/reg4bits.vhd" in Library work.
+Entity <reg4bits> compiled.
+Entity <reg4bits> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/RelogioDigitalProj/RelogioDigitalFD.vhd" in Library work.
+Entity <relogiodigitalfd> compiled.
+Entity <relogiodigitalfd> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <RelogioDigitalFD> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DivisorFrequencia_10Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DivisorFrequencia_60Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ContadorHoraMinuto> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ControladorDemuxDisplay> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ControladorDemux> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <decoder7seg> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux4x4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <reg4bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ContadorHoras> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ContadorMinutos> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Contador0a3> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Demux4x1bit_rest1> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Demux4x1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Contador0a2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Contador0a9Reset3OnFlag> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Contador0a5> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Contador0a9> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <RelogioDigitalFD> in library <work> (Architecture <behavioral>).
+Entity <RelogioDigitalFD> analyzed. Unit <RelogioDigitalFD> generated.
+
+Analyzing Entity <DivisorFrequencia_10Hz> in library <work> (Architecture <behavioral>).
+Entity <DivisorFrequencia_10Hz> analyzed. Unit <DivisorFrequencia_10Hz> generated.
+
+Analyzing Entity <DivisorFrequencia_60Hz> in library <work> (Architecture <behavioral>).
+Entity <DivisorFrequencia_60Hz> analyzed. Unit <DivisorFrequencia_60Hz> generated.
+
+Analyzing Entity <ContadorHoraMinuto> in library <work> (Architecture <behavioral>).
+Entity <ContadorHoraMinuto> analyzed. Unit <ContadorHoraMinuto> generated.
+
+Analyzing Entity <ContadorHoras> in library <work> (Architecture <behavioral>).
+Entity <ContadorHoras> analyzed. Unit <ContadorHoras> generated.
+
+Analyzing Entity <Contador0a2> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "/home/ise/Documents/Contador0a2Proj/Contador0a2.vhd" line 32: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <adjust_debounce>
+Entity <Contador0a2> analyzed. Unit <Contador0a2> generated.
+
+Analyzing Entity <Contador0a9Reset3OnFlag> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "/home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd" line 30: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <LAP_ENABLE>, <adjust_debounce>, <internal_count>
+Entity <Contador0a9Reset3OnFlag> analyzed. Unit <Contador0a9Reset3OnFlag> generated.
+
+Analyzing Entity <ContadorMinutos> in library <work> (Architecture <behavioral>).
+Entity <ContadorMinutos> analyzed. Unit <ContadorMinutos> generated.
+
+Analyzing Entity <Contador0a5> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "/home/ise/Documents/Contador0a5Proj/Contador0a5.vhd" line 29: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <LAP_ENABLE>, <adjust_debounce>, <internal_count>
+Entity <Contador0a5> analyzed. Unit <Contador0a5> generated.
+
+Analyzing Entity <Contador0a9> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "/home/ise/Documents/Contador0a9Proj/Contador0a9.vhd" line 29: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <LAP_ENABLE>, <adjust_debounce>, <internal_count>
+Entity <Contador0a9> analyzed. Unit <Contador0a9> generated.
+
+Analyzing Entity <ControladorDemuxDisplay> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "/home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd" line 86: Mux is complete : default of case is discarded
+Entity <ControladorDemuxDisplay> analyzed. Unit <ControladorDemuxDisplay> generated.
+
+Analyzing Entity <Contador0a3> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "/home/ise/Documents/Contador0a3Proj/Contador0a3.vhd" line 31: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <LAP_ENABLE>, <adjust_debounce>, <internal_count>
+Entity <Contador0a3> analyzed. Unit <Contador0a3> generated.
+
+Analyzing Entity <Demux4x1bit_rest1> in library <work> (Architecture <Behavioral>).
+INFO:Xst:1561 - "/home/ise/Documents/Demux4x1bitProj/Demux4x1bit_rest1.vhd" line 49: Mux is complete : default of case is discarded
+Entity <Demux4x1bit_rest1> analyzed. Unit <Demux4x1bit_rest1> generated.
+
+Analyzing Entity <ControladorDemux> in library <work> (Architecture <behavioral>).
+Entity <ControladorDemux> analyzed. Unit <ControladorDemux> generated.
+
+Analyzing Entity <Demux4x1bit> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "/home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd" line 48: Mux is complete : default of case is discarded
+Entity <Demux4x1bit> analyzed. Unit <Demux4x1bit> generated.
+
+Analyzing Entity <decoder7seg> in library <work> (Architecture <behavioral>).
+Entity <decoder7seg> analyzed. Unit <decoder7seg> generated.
+
+Analyzing Entity <mux4x4> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "/home/ise/Documents/MuxProj/mux4x4.vhd" line 37: Mux is complete : default of case is discarded
+Entity <mux4x4> analyzed. Unit <mux4x4> generated.
+
+Analyzing Entity <reg4bits> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "/home/ise/Documents/RegisterProj/reg4bits.vhd" line 27: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <CLR>, <EN>, <INPUT>
+Entity <reg4bits> analyzed. Unit <reg4bits> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DivisorFrequencia_10Hz>.
+    Related source file is "/home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia.vhd".
+    Found 1-bit register for signal <DIV_CLK>.
+    Found 32-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <DivisorFrequencia_10Hz> synthesized.
+
+
+Synthesizing Unit <DivisorFrequencia_60Hz>.
+    Related source file is "/home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia_60Hz.vhd".
+    Found 1-bit register for signal <DIV_CLK>.
+    Found 32-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <DivisorFrequencia_60Hz> synthesized.
+
+
+Synthesizing Unit <decoder7seg>.
+    Related source file is "/home/ise/Documents/Decoder7SegmentDisplayProj/decoder7seg.vhd".
+    Found 16x7-bit ROM for signal <OUTPUT>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <decoder7seg> synthesized.
+
+
+Synthesizing Unit <mux4x4>.
+    Related source file is "/home/ise/Documents/MuxProj/mux4x4.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <OUTPUT>.
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <mux4x4> synthesized.
+
+
+Synthesizing Unit <reg4bits>.
+    Related source file is "/home/ise/Documents/RegisterProj/reg4bits.vhd".
+WARNING:Xst:737 - Found 4-bit latch for signal <OUTPUT>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <reg4bits> synthesized.
+
+
+Synthesizing Unit <Contador0a2>.
+    Related source file is "/home/ise/Documents/Contador0a2Proj/Contador0a2.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <internal_count> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+WARNING:Xst:737 - Found 1-bit latch for signal <adjust_debounce>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 1-bit register for signal <LAP>.
+    Found 4-bit register for signal <internal_count>.
+    Found 4-bit adder for signal <internal_count$addsub0000> created at line 45.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Contador0a2> synthesized.
+
+
+Synthesizing Unit <Contador0a9Reset3OnFlag>.
+    Related source file is "/home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <internal_count> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+WARNING:Xst:737 - Found 1-bit latch for signal <adjust_debounce>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 1-bit register for signal <LAP>.
+    Found 4-bit register for signal <internal_count>.
+    Found 4-bit adder for signal <internal_count$addsub0000> created at line 47.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Contador0a9Reset3OnFlag> synthesized.
+
+
+Synthesizing Unit <Contador0a5>.
+    Related source file is "/home/ise/Documents/Contador0a5Proj/Contador0a5.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <internal_count> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+WARNING:Xst:737 - Found 1-bit latch for signal <adjust_debounce>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 1-bit register for signal <LAP>.
+    Found 4-bit register for signal <internal_count>.
+    Found 4-bit adder for signal <internal_count$addsub0000> created at line 42.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Contador0a5> synthesized.
+
+
+Synthesizing Unit <Contador0a9>.
+    Related source file is "/home/ise/Documents/Contador0a9Proj/Contador0a9.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <internal_count> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+WARNING:Xst:737 - Found 1-bit latch for signal <adjust_debounce>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 1-bit register for signal <LAP>.
+    Found 4-bit register for signal <internal_count>.
+    Found 4-bit adder for signal <internal_count$addsub0000> created at line 41.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Contador0a9> synthesized.
+
+
+Synthesizing Unit <Contador0a3>.
+    Related source file is "/home/ise/Documents/Contador0a3Proj/Contador0a3.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <internal_count> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+WARNING:Xst:737 - Found 1-bit latch for signal <adjust_debounce>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 1-bit register for signal <LAP>.
+    Found 4-bit register for signal <internal_count>.
+    Found 4-bit adder for signal <internal_count$addsub0000> created at line 44.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Contador0a3> synthesized.
+
+
+Synthesizing Unit <Demux4x1bit_rest1>.
+    Related source file is "/home/ise/Documents/Demux4x1bitProj/Demux4x1bit_rest1.vhd".
+    Found 4x4-bit ROM for signal <SEL$rom0000>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <Demux4x1bit_rest1> synthesized.
+
+
+Synthesizing Unit <Demux4x1bit>.
+    Related source file is "/home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd".
+    Found 1-bit 4-to-1 multiplexer for signal <OUT1>.
+    Found 1-bit 4-to-1 multiplexer for signal <OUT2>.
+    Found 1-bit 4-to-1 multiplexer for signal <OUT3>.
+    Found 1-bit 4-to-1 multiplexer for signal <OUT4>.
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <Demux4x1bit> synthesized.
+
+
+Synthesizing Unit <ControladorDemuxDisplay>.
+    Related source file is "/home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd".
+WARNING:Xst:646 - Signal <unused_signal_3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <unused_signal_2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <unused_signal> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <ControladorDemuxDisplay> synthesized.
+
+
+Synthesizing Unit <ControladorDemux>.
+    Related source file is "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd".
+WARNING:Xst:646 - Signal <unused_signal_3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <unused_signal_2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <unused_signal> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <ControladorDemux> synthesized.
+
+
+Synthesizing Unit <ContadorHoras>.
+    Related source file is "/home/ise/Documents/ContadorHorasProj/ContadorHoras.vhd".
+Unit <ContadorHoras> synthesized.
+
+
+Synthesizing Unit <ContadorMinutos>.
+    Related source file is "/home/ise/Documents/ContadorMinutosProj/ContadorMinutos.vhd".
+Unit <ContadorMinutos> synthesized.
+
+
+Synthesizing Unit <ContadorHoraMinuto>.
+    Related source file is "/home/ise/Documents/ContadorHoraMinutoProj/ContadorHoraMinuto.vhd".
+Unit <ContadorHoraMinuto> synthesized.
+
+
+Synthesizing Unit <RelogioDigitalFD>.
+    Related source file is "/home/ise/Documents/RelogioDigitalProj/RelogioDigitalFD.vhd".
+WARNING:Xst:646 - Signal <nc_2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <nc_1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <RelogioDigitalFD> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 6
+ 4-bit adder                                           : 6
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 32
+ 1-bit register                                        : 32
+# Latches                                              : 7
+ 1-bit latch                                           : 6
+ 4-bit latch                                           : 1
+# Multiplexers                                         : 5
+ 1-bit 4-to-1 multiplexer                              : 4
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 6
+ 4-bit adder                                           : 6
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+# Latches                                              : 7
+ 1-bit latch                                           : 6
+ 4-bit latch                                           : 1
+# Multiplexers                                         : 5
+ 1-bit 4-to-1 multiplexer                              : 4
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <RelogioDigitalFD> ...
+
+Optimizing unit <Contador0a2> ...
+
+Optimizing unit <Contador0a9Reset3OnFlag> ...
+
+Optimizing unit <Contador0a5> ...
+
+Optimizing unit <Contador0a9> ...
+
+Optimizing unit <Contador0a3> ...
+WARNING:Xst:1293 - FF/Latch <Inst_ControladorDemuxDisplay/Inst_Contador0a3/adjust_debounce> has a constant value of 0 in block <RelogioDigitalFD>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_ControladorDemux/Inst_Contador0a3/adjust_debounce> has a constant value of 0 in block <RelogioDigitalFD>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/LAP> of sequential type is unconnected in block <RelogioDigitalFD>.
+WARNING:Xst:2677 - Node <Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_2> of sequential type is unconnected in block <RelogioDigitalFD>.
+WARNING:Xst:2677 - Node <Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_3> of sequential type is unconnected in block <RelogioDigitalFD>.
+WARNING:Xst:2677 - Node <Inst_ControladorDemuxDisplay/Inst_Contador0a3/LAP> of sequential type is unconnected in block <RelogioDigitalFD>.
+WARNING:Xst:2677 - Node <Inst_ControladorDemux/Inst_Contador0a3/internal_count_2> of sequential type is unconnected in block <RelogioDigitalFD>.
+WARNING:Xst:2677 - Node <Inst_ControladorDemux/Inst_Contador0a3/internal_count_3> of sequential type is unconnected in block <RelogioDigitalFD>.
+WARNING:Xst:2677 - Node <Inst_ControladorDemux/Inst_Contador0a3/LAP> of sequential type is unconnected in block <RelogioDigitalFD>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RelogioDigitalFD, actual ratio is 10.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 89
+ Flip-Flops                                            : 89
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : RelogioDigitalFD.ngr
+Top Level Output File Name         : RelogioDigitalFD
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 17
+
+Cell Usage :
+# BELS                             : 334
+#      GND                         : 1
+#      INV                         : 9
+#      LUT1                        : 62
+#      LUT2                        : 11
+#      LUT2_L                      : 2
+#      LUT3                        : 43
+#      LUT4                        : 58
+#      MUXCY                       : 78
+#      MUXF5                       : 5
+#      VCC                         : 1
+#      XORCY                       : 64
+# FlipFlops/Latches                : 97
+#      FDCE                        : 3
+#      FDCPE                       : 20
+#      FDR                         : 66
+#      LD                          : 8
+# Clock Buffers                    : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 15
+#      IBUF                        : 3
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                       98  out of    960    10%  
+ Number of Slice Flip Flops:             97  out of   1920     5%  
+ Number of 4 input LUTs:                185  out of   1920     9%  
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of     83    20%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+-------+
+Clock Signal                                                                                                                                                                                     | Clock buffer(FF name)                                                                           | Load  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+-------+
+CLK                                                                                                                                                                                              | BUFGP                                                                                           | 70    |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce_or0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce_or00002:O)                        | NONE(*)(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce)            | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP                                                                                                                      | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0)              | 4     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce_or0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce_or00001:O)| NONE(*)(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce)| 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/LAP                                                                                                                                | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_0)  | 5     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce_or0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce_or00002:O)                    | NONE(*)(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP                                                                                                                                | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0)            | 5     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce_or0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce_or00002:O)                    | NONE(*)(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce)          | 1     |
+Inst_DivisorFrequencia_10Hz/DIV_CLK                                                                                                                                                              | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0)            | 5     |
+Inst_DivisorFrequencia_60Hz/DIV_CLK                                                                                                                                                              | NONE(Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_0)                            | 2     |
+SHIFT                                                                                                                                                                                            | BUFGP                                                                                           | 2     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+-------+
+(*) These 4 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-------+
+Control Signal                                                                                                                                                                                       | Buffer(FF name)                                                                               | Load  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-------+
+Inst_ControladorDemux/Inst_Contador0a3/adjust_debounce_or0000(XST_GND:G)                                                                                                                             | NONE(Inst_ControladorDemux/Inst_Contador0a3/internal_count_0)                                 | 4     |
+RST                                                                                                                                                                                                  | IBUF                                                                                          | 4     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0_and0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0_and00001:O)                        | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0)            | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0_or0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0_or00001:O)                          | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0)            | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_1_and0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_1_and00001:O)                        | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_1)            | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_1_or0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_1_or00001:O)                          | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_1)            | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_2_and0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_2_and00001:O)                        | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_2)            | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_2_or0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_2_or00001:O)                          | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_2)            | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_3_and0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_3_and00001:O)                        | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_3)            | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_3_or0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_3_or00001:O)                          | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_3)            | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP_and0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP_and0000:O)                           | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP)             | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_0_and0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_0_and00001:O)| NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_0)| 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_0_or0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_0_or00002:O)  | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_0)| 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_1_and0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_1_and00001:O)| NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_1)| 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_1_or0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_1_or00001:O)  | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_1)| 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_2_and0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_2_and00001:O)| NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_2)| 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_2_or0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_2_or00001:O)  | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_2)| 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_3_and0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_3_and00001:O)| NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_3)| 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_3_or0000(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_3_or00001:O)  | NONE(Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_3)| 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/LAP_and0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/LAP_and00001:O)                                              | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/LAP)                       | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0_and0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0_and00001:O)                    | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0_or0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0_or00001:O)                      | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_1_and0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_1_and00001:O)                    | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_1)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_1_or0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_1_or00001:O)                      | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_1)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_2_and0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_2_and00001:O)                    | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_2)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_2_or0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_2_or00001:O)                      | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_2)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_3_and0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_3_and00001:O)                    | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_3)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_3_or0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_3_or00001:O)                      | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_3)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP_and0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP_and00001:O)                                              | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP)                       | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0_and0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0_and00001:O)                    | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0_or0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0_or00001:O)                      | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_1_and0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_1_and00001:O)                    | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_1)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_1_or0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_1_or00001:O)                      | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_1)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_2_and0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_2_and00001:O)                    | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_2)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_2_or0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_2_or00001:O)                      | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_2)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_3_and0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_3_and00001:O)                    | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_3)          | 1     |
+Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_3_or0000(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_3_or00001:O)                      | NONE(Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_3)          | 1     |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.364ns (Maximum Frequency: 157.146MHz)
+   Minimum input arrival time before clock: 4.628ns
+   Maximum output required time after clock: 6.500ns
+   Maximum combinational path delay: 6.916ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 6.364ns (frequency: 157.146MHz)
+  Total number of paths / destination ports: 3168 / 130
+-------------------------------------------------------------------------
+Delay:               6.364ns (Levels of Logic = 10)
+  Source:            Inst_DivisorFrequencia_10Hz/counter_8 (FF)
+  Destination:       Inst_DivisorFrequencia_10Hz/DIV_CLK (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: Inst_DivisorFrequencia_10Hz/counter_8 to Inst_DivisorFrequencia_10Hz/DIV_CLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.622  Inst_DivisorFrequencia_10Hz/counter_8 (Inst_DivisorFrequencia_10Hz/counter_8)
+     LUT4:I0->O            1   0.704   0.000  Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_lut<0> (Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<0> (Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<1> (Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<2> (Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<3> (Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<4> (Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<5> (Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<6> (Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O          33   0.331   1.263  Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000_wg_cy<7> (Inst_DivisorFrequencia_10Hz/counter_cmp_eq0000)
+     INV:I->O              1   0.704   0.420  Inst_DivisorFrequencia_10Hz/DIV_CLK_not00011_INV_0 (Inst_DivisorFrequencia_10Hz/DIV_CLK_not0001)
+     FDR:R                     0.911          Inst_DivisorFrequencia_10Hz/DIV_CLK
+    ----------------------------------------
+    Total                      6.364ns (4.059ns logic, 2.305ns route)
+                                       (63.8% logic, 36.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce_or0000'
+  Clock period: 2.431ns (frequency: 411.353MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.431ns (Levels of Logic = 1)
+  Source:            Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce (LATCH)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce (LATCH)
+  Source Clock:      Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce_or0000 falling
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce_or0000 falling
+
+  Data Path: Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce to Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               7   0.676   0.743  Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce)
+     LUT3:I2->O            1   0.704   0.000  Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce_and00001 (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce_and0000)
+     LD:D                      0.308          Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce
+    ----------------------------------------
+    Total                      2.431ns (1.688ns logic, 0.743ns route)
+                                       (69.4% logic, 30.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP'
+  Clock period: 2.447ns (frequency: 408.664MHz)
+  Total number of paths / destination ports: 15 / 4
+-------------------------------------------------------------------------
+Delay:               2.447ns (Levels of Logic = 1)
+  Source:            Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0 (FF)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0 (FF)
+  Source Clock:      Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP rising
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP rising
+
+  Data Path: Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0 to Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            6   0.591   0.844  Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0 (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0)
+     LUT4:I0->O            3   0.704   0.000  Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_mux0000<0>1 (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_mux0000<0>)
+     FDCPE:D                   0.308          Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_3
+    ----------------------------------------
+    Total                      2.447ns (1.603ns logic, 0.844ns route)
+                                       (65.5% logic, 34.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce_or0000'
+  Clock period: 2.431ns (frequency: 411.353MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.431ns (Levels of Logic = 1)
+  Source:            Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce (LATCH)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce (LATCH)
+  Source Clock:      Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce_or0000 falling
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce_or0000 falling
+
+  Data Path: Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce to Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               7   0.676   0.743  Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce)
+     LUT3:I2->O            1   0.704   0.000  Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce_and00001 (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce_and0000)
+     LD:D                      0.308          Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce
+    ----------------------------------------
+    Total                      2.431ns (1.688ns logic, 0.743ns route)
+                                       (69.4% logic, 30.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/LAP'
+  Clock period: 3.437ns (frequency: 290.951MHz)
+  Total number of paths / destination ports: 17 / 5
+-------------------------------------------------------------------------
+Delay:               3.437ns (Levels of Logic = 2)
+  Source:            Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_0 (FF)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP (FF)
+  Source Clock:      Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/LAP rising
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/LAP rising
+
+  Data Path: Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_0 to Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            9   0.591   0.995  Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_0 (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/internal_count_0)
+     LUT2_L:I0->LO         1   0.704   0.135  Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP_mux0002_SW0 (N16)
+     LUT4:I2->O            1   0.704   0.000  Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP_mux0002 (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP_mux0002)
+     FDCE:D                    0.308          Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP
+    ----------------------------------------
+    Total                      3.437ns (2.307ns logic, 1.130ns route)
+                                       (67.1% logic, 32.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce_or0000'
+  Clock period: 2.480ns (frequency: 403.226MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.480ns (Levels of Logic = 1)
+  Source:            Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce (LATCH)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce (LATCH)
+  Source Clock:      Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce_or0000 falling
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce_or0000 falling
+
+  Data Path: Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce to Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               8   0.676   0.792  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce (Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce)
+     LUT3:I2->O            1   0.704   0.000  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce_and00001 (Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce_and0000)
+     LD:D                      0.308          Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce
+    ----------------------------------------
+    Total                      2.480ns (1.688ns logic, 0.792ns route)
+                                       (68.1% logic, 31.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP'
+  Clock period: 2.780ns (frequency: 359.712MHz)
+  Total number of paths / destination ports: 17 / 5
+-------------------------------------------------------------------------
+Delay:               2.780ns (Levels of Logic = 1)
+  Source:            Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0 (FF)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0 (FF)
+  Source Clock:      Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP rising
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP rising
+
+  Data Path: Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0 to Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            8   0.591   0.757  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0 (Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0)
+     INV:I->O              1   0.704   0.420  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_mux0000<3>1_INV_0 (Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_mux0000<3>)
+     FDCPE:D                   0.308          Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/internal_count_0
+    ----------------------------------------
+    Total                      2.780ns (1.603ns logic, 1.177ns route)
+                                       (57.7% logic, 42.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce_or0000'
+  Clock period: 2.480ns (frequency: 403.226MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.480ns (Levels of Logic = 1)
+  Source:            Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce (LATCH)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce (LATCH)
+  Source Clock:      Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce_or0000 falling
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce_or0000 falling
+
+  Data Path: Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce to Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               8   0.676   0.792  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce (Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce)
+     LUT3:I2->O            1   0.704   0.000  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce_and00001 (Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce_and0000)
+     LD:D                      0.308          Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce
+    ----------------------------------------
+    Total                      2.480ns (1.688ns logic, 0.792ns route)
+                                       (68.1% logic, 31.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_DivisorFrequencia_10Hz/DIV_CLK'
+  Clock period: 2.780ns (frequency: 359.712MHz)
+  Total number of paths / destination ports: 16 / 5
+-------------------------------------------------------------------------
+Delay:               2.780ns (Levels of Logic = 1)
+  Source:            Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0 (FF)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0 (FF)
+  Source Clock:      Inst_DivisorFrequencia_10Hz/DIV_CLK rising
+  Destination Clock: Inst_DivisorFrequencia_10Hz/DIV_CLK rising
+
+  Data Path: Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0 to Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            8   0.591   0.757  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0 (Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0)
+     INV:I->O              1   0.704   0.420  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_mux0000<3>1_INV_0 (Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_mux0000<3>)
+     FDCPE:D                   0.308          Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/internal_count_0
+    ----------------------------------------
+    Total                      2.780ns (1.603ns logic, 1.177ns route)
+                                       (57.7% logic, 42.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_DivisorFrequencia_60Hz/DIV_CLK'
+  Clock period: 3.040ns (frequency: 328.947MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               3.040ns (Levels of Logic = 1)
+  Source:            Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_0 (FF)
+  Destination:       Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_0 (FF)
+  Source Clock:      Inst_DivisorFrequencia_60Hz/DIV_CLK rising
+  Destination Clock: Inst_DivisorFrequencia_60Hz/DIV_CLK rising
+
+  Data Path: Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_0 to Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q           15   0.591   1.017  Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_0 (Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_0)
+     INV:I->O              1   0.704   0.420  Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_mux0000<3>1_INV_0 (Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_mux0000<3>)
+     FDCPE:D                   0.308          Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_0
+    ----------------------------------------
+    Total                      3.040ns (1.603ns logic, 1.437ns route)
+                                       (52.7% logic, 47.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'SHIFT'
+  Clock period: 2.731ns (frequency: 366.166MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.731ns (Levels of Logic = 1)
+  Source:            Inst_ControladorDemux/Inst_Contador0a3/internal_count_0 (FF)
+  Destination:       Inst_ControladorDemux/Inst_Contador0a3/internal_count_0 (FF)
+  Source Clock:      SHIFT rising
+  Destination Clock: SHIFT rising
+
+  Data Path: Inst_ControladorDemux/Inst_Contador0a3/internal_count_0 to Inst_ControladorDemux/Inst_Contador0a3/internal_count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            7   0.591   0.708  Inst_ControladorDemux/Inst_Contador0a3/internal_count_0 (Inst_ControladorDemux/Inst_Contador0a3/internal_count_0)
+     INV:I->O              1   0.704   0.420  Inst_ControladorDemux/Inst_Contador0a3/internal_count_mux0000<3>1_INV_0 (Inst_ControladorDemux/Inst_Contador0a3/internal_count_mux0000<3>)
+     FDCPE:D                   0.308          Inst_ControladorDemux/Inst_Contador0a3/internal_count_0
+    ----------------------------------------
+    Total                      2.731ns (1.603ns logic, 1.128ns route)
+                                       (58.7% logic, 41.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.665ns (Levels of Logic = 2)
+  Source:            RST (PAD)
+  Destination:       Inst_reg4bits/OUTPUT_3 (LATCH)
+  Destination Clock: CLK falling
+
+  Data Path: RST to Inst_reg4bits/OUTPUT_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            25   1.218   1.435  RST_IBUF (Inst_ControladorDemux/Inst_Contador0a3/internal_count_0_or0000)
+     LUT2:I0->O            1   0.704   0.000  Inst_reg4bits/OUTPUT_mux0002<3>1 (Inst_reg4bits/OUTPUT_mux0002<3>)
+     LD:D                      0.308          Inst_reg4bits/OUTPUT_0
+    ----------------------------------------
+    Total                      3.665ns (2.230ns logic, 1.435ns route)
+                                       (60.8% logic, 39.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce_or0000'
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Offset:              4.439ns (Levels of Logic = 3)
+  Source:            INCREMENT (PAD)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce (LATCH)
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce_or0000 falling
+
+  Data Path: INCREMENT to Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.622  INCREMENT_IBUF (INCREMENT_IBUF)
+     LUT3:I2->O            7   0.704   0.883  Inst_ControladorDemux/Inst_Demux4x1bit/Mmux_OUT411 (aj_dh_contador)
+     LUT3:I0->O            1   0.704   0.000  Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce_and00001 (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce_and0000)
+     LD:D                      0.308          Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce
+    ----------------------------------------
+    Total                      4.439ns (2.934ns logic, 1.505ns route)
+                                       (66.1% logic, 33.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.040ns (Levels of Logic = 1)
+  Source:            MODE (PAD)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0 (FF)
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP rising
+
+  Data Path: MODE to Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            48   1.218   1.267  MODE_IBUF (MODE_IBUF)
+     FDCPE:CE                  0.555          Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/internal_count_3
+    ----------------------------------------
+    Total                      3.040ns (1.773ns logic, 1.267ns route)
+                                       (58.3% logic, 41.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce_or0000'
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Offset:              4.439ns (Levels of Logic = 3)
+  Source:            INCREMENT (PAD)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce (LATCH)
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce_or0000 falling
+
+  Data Path: INCREMENT to Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.622  INCREMENT_IBUF (INCREMENT_IBUF)
+     LUT3:I2->O            7   0.704   0.883  Inst_ControladorDemux/Inst_Demux4x1bit/Mmux_OUT311 (aj_uh_contador)
+     LUT3:I0->O            1   0.704   0.000  Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce_and00001 (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce_and0000)
+     LD:D                      0.308          Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjust_debounce
+    ----------------------------------------
+    Total                      4.439ns (2.934ns logic, 1.505ns route)
+                                       (66.1% logic, 33.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/LAP'
+  Total number of paths / destination ports: 6 / 5
+-------------------------------------------------------------------------
+Offset:              4.443ns (Levels of Logic = 2)
+  Source:            RST (PAD)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP (FF)
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/LAP rising
+
+  Data Path: RST to Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            25   1.218   1.435  RST_IBUF (Inst_ControladorDemux/Inst_Contador0a3/internal_count_0_or0000)
+     LUT2:I0->O            3   0.704   0.531  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP_and00011 (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP_and0001)
+     FDCE:CE                   0.555          Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP
+    ----------------------------------------
+    Total                      4.443ns (2.477ns logic, 1.966ns route)
+                                       (55.8% logic, 44.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce_or0000'
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Offset:              4.488ns (Levels of Logic = 3)
+  Source:            INCREMENT (PAD)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce (LATCH)
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce_or0000 falling
+
+  Data Path: INCREMENT to Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.622  INCREMENT_IBUF (INCREMENT_IBUF)
+     LUT3:I2->O            8   0.704   0.932  Inst_ControladorDemux/Inst_Demux4x1bit/Mmux_OUT211 (aj_dm_contador)
+     LUT3:I0->O            1   0.704   0.000  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce_and00001 (Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce_and0000)
+     LD:D                      0.308          Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce
+    ----------------------------------------
+    Total                      4.488ns (2.934ns logic, 1.554ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP'
+  Total number of paths / destination ports: 6 / 5
+-------------------------------------------------------------------------
+Offset:              4.443ns (Levels of Logic = 2)
+  Source:            RST (PAD)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/LAP (FF)
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP rising
+
+  Data Path: RST to Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/LAP
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            25   1.218   1.435  RST_IBUF (Inst_ControladorDemux/Inst_Contador0a3/internal_count_0_or0000)
+     LUT2:I0->O            3   0.704   0.531  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP_and00011 (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP_and0001)
+     FDCE:CE                   0.555          Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/LAP
+    ----------------------------------------
+    Total                      4.443ns (2.477ns logic, 1.966ns route)
+                                       (55.8% logic, 44.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce_or0000'
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Offset:              4.628ns (Levels of Logic = 3)
+  Source:            INCREMENT (PAD)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce (LATCH)
+  Destination Clock: Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce_or0000 falling
+
+  Data Path: INCREMENT to Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.762  INCREMENT_IBUF (INCREMENT_IBUF)
+     LUT3:I0->O            8   0.704   0.932  Inst_ControladorDemux/Inst_Demux4x1bit/Mmux_OUT111 (aj_um_contador)
+     LUT3:I0->O            1   0.704   0.000  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce_and00001 (Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce_and0000)
+     LD:D                      0.308          Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce
+    ----------------------------------------
+    Total                      4.628ns (2.934ns logic, 1.694ns route)
+                                       (63.4% logic, 36.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_DivisorFrequencia_10Hz/DIV_CLK'
+  Total number of paths / destination ports: 6 / 5
+-------------------------------------------------------------------------
+Offset:              4.443ns (Levels of Logic = 2)
+  Source:            RST (PAD)
+  Destination:       Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP (FF)
+  Destination Clock: Inst_DivisorFrequencia_10Hz/DIV_CLK rising
+
+  Data Path: RST to Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            25   1.218   1.435  RST_IBUF (Inst_ControladorDemux/Inst_Contador0a3/internal_count_0_or0000)
+     LUT2:I0->O            3   0.704   0.531  Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP_and00011 (Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/LAP_and0001)
+     FDCE:CE                   0.555          Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/LAP
+    ----------------------------------------
+    Total                      4.443ns (2.477ns logic, 1.966ns route)
+                                       (55.8% logic, 44.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_DivisorFrequencia_60Hz/DIV_CLK'
+  Total number of paths / destination ports: 10 / 5
+-------------------------------------------------------------------------
+Offset:              6.500ns (Levels of Logic = 3)
+  Source:            Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_0 (FF)
+  Destination:       DOT (PAD)
+  Source Clock:      Inst_DivisorFrequencia_60Hz/DIV_CLK rising
+
+  Data Path: Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_0 to DOT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q           15   0.591   1.192  Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_0 (Inst_ControladorDemuxDisplay/Inst_Contador0a3/internal_count_0)
+     LUT4:I0->O            1   0.704   0.000  Inst_ControladorDemuxDisplay/DOT1 (Inst_ControladorDemuxDisplay/DOT)
+     MUXF5:I0->O           1   0.321   0.420  Inst_ControladorDemuxDisplay/DOT_f5 (DOT_OBUF)
+     OBUF:I->O                 3.272          DOT_OBUF (DOT)
+    ----------------------------------------
+    Total                      6.500ns (4.888ns logic, 1.612ns route)
+                                       (75.2% logic, 24.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SHIFT'
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Offset:              6.095ns (Levels of Logic = 3)
+  Source:            Inst_ControladorDemux/Inst_Contador0a3/internal_count_0 (FF)
+  Destination:       DOT (PAD)
+  Source Clock:      SHIFT rising
+
+  Data Path: Inst_ControladorDemux/Inst_Contador0a3/internal_count_0 to DOT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            7   0.591   0.787  Inst_ControladorDemux/Inst_Contador0a3/internal_count_0 (Inst_ControladorDemux/Inst_Contador0a3/internal_count_0)
+     LUT4:I1->O            1   0.704   0.000  Inst_ControladorDemuxDisplay/DOT1 (Inst_ControladorDemuxDisplay/DOT)
+     MUXF5:I0->O           1   0.321   0.420  Inst_ControladorDemuxDisplay/DOT_f5 (DOT_OBUF)
+     OBUF:I->O                 3.272          DOT_OBUF (DOT)
+    ----------------------------------------
+    Total                      6.095ns (4.888ns logic, 1.207ns route)
+                                       (80.2% logic, 19.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 28 / 7
+-------------------------------------------------------------------------
+Offset:              5.955ns (Levels of Logic = 2)
+  Source:            Inst_reg4bits/OUTPUT_0 (LATCH)
+  Destination:       DISPLAY<6> (PAD)
+  Source Clock:      CLK falling
+
+  Data Path: Inst_reg4bits/OUTPUT_0 to DISPLAY<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               7   0.676   0.883  Inst_reg4bits/OUTPUT_0 (Inst_reg4bits/OUTPUT_0)
+     LUT4:I0->O            1   0.704   0.420  Inst_decoder7seg/Mrom_OUTPUT31 (DISPLAY_3_OBUF)
+     OBUF:I->O                 3.272          DISPLAY_3_OBUF (DISPLAY<3>)
+    ----------------------------------------
+    Total                      5.955ns (4.652ns logic, 1.303ns route)
+                                       (78.1% logic, 21.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               6.916ns (Levels of Logic = 3)
+  Source:            MODE (PAD)
+  Destination:       DOT (PAD)
+
+  Data Path: MODE to DOT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            48   1.218   1.267  MODE_IBUF (MODE_IBUF)
+     MUXF5:S->O            1   0.739   0.420  Inst_ControladorDemuxDisplay/DOT_f5 (DOT_OBUF)
+     OBUF:I->O                 3.272          DOT_OBUF (DOT)
+    ----------------------------------------
+    Total                      6.916ns (5.229ns logic, 1.687ns route)
+                                       (75.6% logic, 24.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 12.87 secs
+ 
+--> 
+
+
+Total memory usage is 618388 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   29 (   0 filtered)
+Number of infos    :   15 (   0 filtered)
+

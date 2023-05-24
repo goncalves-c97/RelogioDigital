@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2023-05-21T14:35:51</DateModified>
+  <DateModified>2023-05-23T22:42:06</DateModified>
   <ModuleName>DivisorFrequencia_10Hz</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/home/ise/Documents/DivisorFrequenciaProj/iseconfig/DivisorFrequencia_10Hz.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Documents/DivisorFrequenciaProj</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/home/ise/Documents/DivisorFrequenciaProj/</ImplementationReportsDirectory>
   <DateInitialized>2023-05-21T14:35:50</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

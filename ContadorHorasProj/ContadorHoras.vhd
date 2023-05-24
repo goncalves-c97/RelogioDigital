@@ -1,21 +1,13 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    00:13:18 05/19/2023 
--- Design Name: 
--- Module Name:    ContadorHoras - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
+-- Company: Faculdade Engenheiro Salvador Arena
 --
--- Dependencies: 
+-- Engineers: Carlos Adonias
+--			  	  Carlos Goncalves
+--			 	  Gabriel Teixeira
+-- 		 	  Johnny Messias
 --
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
+-- Teacher: Filippo Valiante
+-- Create Date:    21:13:18 19/05/2023 
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

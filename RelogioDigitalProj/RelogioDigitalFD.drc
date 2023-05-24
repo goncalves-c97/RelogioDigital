@@ -1,0 +1,25 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed May 24 09:15:25 2023
+
+drc -z RelogioDigitalFD.ncd RelogioDigitalFD.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a5/adjust_debounce
+   _or0000 is sourced by a combinatorial pin. This is not good design practice.
+   Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a2/adjust_debounce_o
+   r0000 is sourced by a combinatorial pin. This is not good design practice.
+   Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_ContadorHoraMinuto/Inst_ContadorMinutos/Inst_Contador0a9/adjust_debounce
+   _or0000 is sourced by a combinatorial pin. This is not good design practice.
+   Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_ContadorHoraMinuto/Inst_ContadorHoras/Inst_Contador0a9Reset3OnFlag/adjus
+   t_debounce_or0000 is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+DRC detected 0 errors and 4 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

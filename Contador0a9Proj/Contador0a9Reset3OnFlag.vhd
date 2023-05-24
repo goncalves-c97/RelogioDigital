@@ -1,21 +1,13 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    18:14:11 05/21/2023 
--- Design Name: 
--- Module Name:    Contador0a9Reset3OnFlag - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
+-- Company: Faculdade Engenheiro Salvador Arena
 --
--- Dependencies: 
+-- Engineers: Carlos Adonias
+--			  	  Carlos Goncalves
+--			 	  Gabriel Teixeira
+-- 		 	  Johnny Messias
 --
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
+-- Teacher: Filippo Valiante
+-- Create Date:    15:14:11 21/05/2023 
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

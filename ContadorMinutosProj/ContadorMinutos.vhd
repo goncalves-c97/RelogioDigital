@@ -1,33 +1,16 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    23:49:02 05/18/2023 
--- Design Name: 
--- Module Name:    ContadorMinutos - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
+-- Company: Faculdade Engenheiro Salvador Arena
 --
--- Dependencies: 
+-- Engineers: Carlos Adonias
+--			  	  Carlos Goncalves
+--			 	  Gabriel Teixeira
+-- 		 	  Johnny Messias
 --
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
+-- Teacher: Filippo Valiante
+-- Create Date:    20:49:02 18/05/2023 
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity ContadorMinutos is
     Port ( CLK : in  STD_LOGIC;

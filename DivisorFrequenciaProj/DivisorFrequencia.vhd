@@ -1,21 +1,13 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    02:33:51 05/19/2023 
--- Design Name: 
--- Module Name:    DivisorFrequencia - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
+-- Company: Faculdade Engenheiro Salvador Arena
 --
--- Dependencies: 
+-- Engineers: Carlos Adonias
+--			  	  Carlos Goncalves
+--			 	  Gabriel Teixeira
+-- 		 	  Johnny Messias
 --
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
+-- Teacher: Filippo Valiante
+-- Create Date:    23:33:51 19/05/2023 
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -37,7 +29,8 @@ begin
 		  
             counter <= counter + 1;
 				
-				if(counter = 5000000) then
+			   if(counter = 5000000) then --10Hz
+				--if(counter = 80) then    --625kHz
 					counter <= 0;
 					DIV_CLK <= '1';
 				else

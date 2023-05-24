@@ -1,6 +1,8 @@
-AR controladordemux behavioral /home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd sub00/vhpl05 1684702992
-EN demux4x1bit NULL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd sub00/vhpl03 1684702989
-AR contador0a3 behavioral /home/ise/Documents/Contador0a3Proj/Contador0a3.vhd sub00/vhpl02 1684702988
-EN contador0a3 NULL /home/ise/Documents/Contador0a3Proj/Contador0a3.vhd sub00/vhpl01 1684702987
-AR demux4x1bit behavioral /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd sub00/vhpl04 1684702990
-EN controladordemux NULL /home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd sub00/vhpl00 1684702991
+AR controladordemux behavioral /home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd sub00/vhpl05 1684890820
+EN demux4x1bit NULL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd sub00/vhpl03 1684890817
+AR contador0a3 behavioral /home/ise/Documents/Contador0a3Proj/Contador0a3.vhd sub00/vhpl02 1684892163
+AR controladordemuxdisplay behavioral /home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd sub00/vhpl07 1684892165
+EN controladordemuxdisplay NULL /home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd sub00/vhpl06 1684892164
+EN contador0a3 NULL /home/ise/Documents/Contador0a3Proj/Contador0a3.vhd sub00/vhpl01 1684892162
+AR demux4x1bit behavioral /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd sub00/vhpl04 1684890818
+EN controladordemux NULL /home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd sub00/vhpl00 1684890819

@@ -1,0 +1,28 @@
+Command line:
+   tb_relogio_digital_FD_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57070
+
+Wed May 24 01:44:46 2023
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 199.016 Meg
+
+ Total Signals          : 174
+ Total Nets             : 110
+ Total Signal Drivers   : 48
+ Total Blocks           : 22
+ Total Primitive Blocks : 15
+ Total Processes        : 25
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 594
+
+ Total Simulation Time: 1.57 sec
+
+ Current Memory Usage: 276.615 Meg
+
+Wed May 24 05:21:40 2023
+

@@ -1,0 +1,1 @@
+vhdtdtfi -prj RelogioDigitalProj -o /home/ise/Documents/RelogioDigitalProj/decoder7seg.vhi -module decoder7seg -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../Decoder7SegmentDisplayProj/decoder7seg.vhd 

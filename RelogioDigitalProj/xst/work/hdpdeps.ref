@@ -1,0 +1,121 @@
+V3 71
+FL /home/ise/Documents/Contador0a2Proj/Contador0a2.vhd 2023/05/24.06:00:32 P.20131013
+EN work/Contador0a2 1684919662 \
+      FL /home/ise/Documents/Contador0a2Proj/Contador0a2.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Contador0a2/Behavioral 1684919663 \
+      FL /home/ise/Documents/Contador0a2Proj/Contador0a2.vhd EN work/Contador0a2 1684919662
+FL /home/ise/Documents/Contador0a3Proj/Contador0a3.vhd 2023/05/24.06:00:33 P.20131013
+EN work/Contador0a3 1684919666 \
+      FL /home/ise/Documents/Contador0a3Proj/Contador0a3.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Contador0a3/Behavioral 1684919667 \
+      FL /home/ise/Documents/Contador0a3Proj/Contador0a3.vhd EN work/Contador0a3 1684919666
+FL /home/ise/Documents/Contador0a5Proj/Contador0a5.vhd 2023/05/24.06:00:32 P.20131013
+EN work/Contador0a5 1684919658 \
+      FL /home/ise/Documents/Contador0a5Proj/Contador0a5.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Contador0a5/Behavioral 1684919659 \
+      FL /home/ise/Documents/Contador0a5Proj/Contador0a5.vhd EN work/Contador0a5 1684919658
+FL /home/ise/Documents/Contador0a9Proj/Contador0a9.vhd 2023/05/24.06:00:32 P.20131013
+EN work/Contador0a9 1684919660 \
+      FL /home/ise/Documents/Contador0a9Proj/Contador0a9.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Contador0a9/Behavioral 1684919661 \
+      FL /home/ise/Documents/Contador0a9Proj/Contador0a9.vhd EN work/Contador0a9 1684919660
+FL /home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd 2023/05/24.06:00:32 P.20131013
+EN work/Contador0a9Reset3OnFlag 1684919664 \
+      FL /home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Contador0a9Reset3OnFlag/Behavioral 1684919665 \
+      FL /home/ise/Documents/Contador0a9Proj/Contador0a9Reset3OnFlag.vhd \
+      EN work/Contador0a9Reset3OnFlag 1684919664
+FL /home/ise/Documents/ContadorHoraMinutoProj/ContadorHoraMinuto.vhd 2023/05/24.06:00:32 P.20131013
+EN work/ContadorHoraMinuto 1684919680 \
+      FL /home/ise/Documents/ContadorHoraMinutoProj/ContadorHoraMinuto.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ContadorHoraMinuto/Behavioral 1684919681 \
+      FL /home/ise/Documents/ContadorHoraMinutoProj/ContadorHoraMinuto.vhd \
+      EN work/ContadorHoraMinuto 1684919680 CP ContadorHoras CP ContadorMinutos
+FL /home/ise/Documents/ContadorHorasProj/ContadorHoras.vhd 2023/05/24.06:00:32 P.20131013
+EN work/ContadorHoras 1684919672 \
+      FL /home/ise/Documents/ContadorHorasProj/ContadorHoras.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ContadorHoras/Behavioral 1684919673 \
+      FL /home/ise/Documents/ContadorHorasProj/ContadorHoras.vhd \
+      EN work/ContadorHoras 1684919672 CP Contador0a2 CP Contador0a9Reset3OnFlag
+FL /home/ise/Documents/ContadorMinutosProj/ContadorMinutos.vhd 2023/05/24.06:00:32 P.20131013
+EN work/ContadorMinutos 1684919674 \
+      FL /home/ise/Documents/ContadorMinutosProj/ContadorMinutos.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ContadorMinutos/Behavioral 1684919675 \
+      FL /home/ise/Documents/ContadorMinutosProj/ContadorMinutos.vhd \
+      EN work/ContadorMinutos 1684919674 CP Contador0a5 CP Contador0a9
+FL /home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd 2023/05/24.06:00:33 P.20131013
+EN work/ControladorDemux 1684919684 \
+      FL /home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ControladorDemux/Behavioral 1684919685 \
+      FL /home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd \
+      EN work/ControladorDemux 1684919684 CP Contador0a3 CP Demux4x1bit
+FL /home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd 2023/05/24.06:00:32 P.20131013
+EN work/ControladorDemuxDisplay 1684919682 \
+      FL /home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ControladorDemuxDisplay/Behavioral 1684919683 \
+      FL /home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd \
+      EN work/ControladorDemuxDisplay 1684919682 CP Contador0a3 \
+      CP Demux4x1bit_rest1
+FL /home/ise/Documents/Decoder7SegmentDisplayProj/decoder7seg.vhd 2023/03/11.14:07:43 P.20131013
+EN work/decoder7seg 1684919686 \
+      FL /home/ise/Documents/Decoder7SegmentDisplayProj/decoder7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/decoder7seg/Behavioral 1684919687 \
+      FL /home/ise/Documents/Decoder7SegmentDisplayProj/decoder7seg.vhd \
+      EN work/decoder7seg 1684919686
+FL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd 2023/05/24.06:00:33 P.20131013
+EN work/Demux4x1bit 1684919668 \
+      FL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Demux4x1bit/Behavioral 1684919669 \
+      FL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd EN work/Demux4x1bit 1684919668
+FL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit_rest1.vhd 2023/05/24.06:00:33 P.20131013
+EN work/Demux4x1bit_rest1 1684919670 \
+      FL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit_rest1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Demux4x1bit_rest1/Behavioral 1684919671 \
+      FL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit_rest1.vhd \
+      EN work/Demux4x1bit_rest1 1684919670
+FL /home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia.vhd 2023/05/24.09:05:36 P.20131013
+EN work/DivisorFrequencia_10Hz 1684919676 \
+      FL /home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DivisorFrequencia_10Hz/Behavioral 1684919677 \
+      FL /home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia.vhd \
+      EN work/DivisorFrequencia_10Hz 1684919676
+FL /home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia_60Hz.vhd 2023/05/24.09:05:36 P.20131013
+EN work/DivisorFrequencia_60Hz 1684919678 \
+      FL /home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia_60Hz.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DivisorFrequencia_60Hz/Behavioral 1684919679 \
+      FL /home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia_60Hz.vhd \
+      EN work/DivisorFrequencia_60Hz 1684919678
+FL /home/ise/Documents/MuxProj/mux4x4.vhd 2023/05/24.06:00:33 P.20131013
+EN work/mux4x4 1684919688 FL /home/ise/Documents/MuxProj/mux4x4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux4x4/Behavioral 1684919689 \
+      FL /home/ise/Documents/MuxProj/mux4x4.vhd EN work/mux4x4 1684919688
+FL /home/ise/Documents/RegisterProj/reg4bits.vhd 2023/05/24.06:00:33 P.20131013
+EN work/reg4bits 1684919690 FL /home/ise/Documents/RegisterProj/reg4bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/reg4bits/Behavioral 1684919691 \
+      FL /home/ise/Documents/RegisterProj/reg4bits.vhd EN work/reg4bits 1684919690
+FL /home/ise/Documents/RelogioDigitalProj/RelogioDigitalFD.vhd 2023/05/24.06:00:32 P.20131013
+EN work/RelogioDigitalFD 1684919692 \
+      FL /home/ise/Documents/RelogioDigitalProj/RelogioDigitalFD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/RelogioDigitalFD/Behavioral 1684919693 \
+      FL /home/ise/Documents/RelogioDigitalProj/RelogioDigitalFD.vhd \
+      EN work/RelogioDigitalFD 1684919692 CP DivisorFrequencia_10Hz \
+      CP DivisorFrequencia_60Hz CP ContadorHoraMinuto CP ControladorDemuxDisplay \
+      CP ControladorDemux CP decoder7seg CP mux4x4 CP reg4bits

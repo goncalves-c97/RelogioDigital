@@ -1,20 +1,28 @@
-V3 11
-FL /home/ise/Documents/Contador0a3Proj/Contador0a3.vhd 2023/05/21.16:18:00 P.20131013
-EN work/Contador0a3 1684702987 \
+V3 15
+FL /home/ise/Documents/Contador0a3Proj/Contador0a3.vhd 2023/05/22.00:43:14 P.20131013
+EN work/Contador0a3 1684892162 \
       FL /home/ise/Documents/Contador0a3Proj/Contador0a3.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/Contador0a3/Behavioral 1684702988 \
-      FL /home/ise/Documents/Contador0a3Proj/Contador0a3.vhd EN work/Contador0a3 1684702987
-FL /home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd 2023/05/21.21:03:03 P.20131013
-EN work/ControladorDemux 1684702991 \
+AR work/Contador0a3/Behavioral 1684892163 \
+      FL /home/ise/Documents/Contador0a3Proj/Contador0a3.vhd EN work/Contador0a3 1684892162
+FL /home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd 2023/05/24.01:13:29 P.20131013
+EN work/ControladorDemux 1684890819 \
       FL /home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/ControladorDemux/Behavioral 1684702992 \
+AR work/ControladorDemux/Behavioral 1684890820 \
       FL /home/ise/Documents/ControladorDemuxProj/ControladorDemux.vhd \
-      EN work/ControladorDemux 1684702991 CP Contador0a3 CP Demux4x1bit
-FL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd 2023/05/19.01:46:05 P.20131013
-EN work/Demux4x1bit 1684702989 \
+      EN work/ControladorDemux 1684890819 CP Contador0a3 CP Demux4x1bit
+FL /home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd 2023/05/24.01:35:56 P.20131013
+EN work/ControladorDemuxDisplay 1684892164 \
+      FL /home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ControladorDemuxDisplay/Behavioral 1684892165 \
+      FL /home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd \
+      EN work/ControladorDemuxDisplay 1684892164 CP Contador0a3 \
+      CP Demux4x1bit_rest1
+FL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd 2023/05/23.23:53:24 P.20131013
+EN work/Demux4x1bit 1684890817 \
       FL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/Demux4x1bit/Behavioral 1684702990 \
-      FL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd EN work/Demux4x1bit 1684702989
+AR work/Demux4x1bit/Behavioral 1684890818 \
+      FL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd EN work/Demux4x1bit 1684890817

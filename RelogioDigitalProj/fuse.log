@@ -1,0 +1,56 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/Documents/RelogioDigitalProj/tb_relogio_digital_FD_isim_beh.exe -prj /home/ise/Documents/RelogioDigitalProj/tb_relogio_digital_FD_beh.prj work.tb_relogio_digital_FD 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../Contador0a9Proj/Contador0a9Reset3OnFlag.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../Contador0a9Proj/Contador0a9.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../Contador0a5Proj/Contador0a5.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../Contador0a2Proj/Contador0a2.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../Demux4x1bitProj/Demux4x1bit_rest1.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../Demux4x1bitProj/Demux4x1bit.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../ContadorMinutosProj/ContadorMinutos.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../ContadorHorasProj/ContadorHoras.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../Contador0a3Proj/Contador0a3.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../RegisterProj/reg4bits.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../MuxProj/mux4x4.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../DivisorFrequenciaProj/DivisorFrequencia_60Hz.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../DivisorFrequenciaProj/DivisorFrequencia.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../Decoder7SegmentDisplayProj/decoder7seg.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../ControladorDemuxProj/ControladorDemuxDisplay.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../ControladorDemuxProj/ControladorDemux.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/../ContadorHoraMinutoProj/ContadorHoraMinuto.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/RelogioDigitalFD.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/RelogioDigitalProj/tb_relogio_digital_FD.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97548 KB
+Fuse CPU Usage: 1680 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity DivisorFrequencia_10Hz [divisorfrequencia_10hz_default]
+Compiling architecture behavioral of entity DivisorFrequencia_60Hz [divisorfrequencia_60hz_default]
+Compiling architecture behavioral of entity Contador0a2 [contador0a2_default]
+Compiling architecture behavioral of entity Contador0a9Reset3OnFlag [contador0a9reset3onflag_default]
+Compiling architecture behavioral of entity ContadorHoras [contadorhoras_default]
+Compiling architecture behavioral of entity Contador0a5 [contador0a5_default]
+Compiling architecture behavioral of entity Contador0a9 [contador0a9_default]
+Compiling architecture behavioral of entity ContadorMinutos [contadorminutos_default]
+Compiling architecture behavioral of entity ContadorHoraMinuto [contadorhoraminuto_default]
+Compiling architecture behavioral of entity Contador0a3 [contador0a3_default]
+Compiling architecture behavioral of entity Demux4x1bit_rest1 [demux4x1bit_rest1_default]
+Compiling architecture behavioral of entity ControladorDemuxDisplay [controladordemuxdisplay_default]
+Compiling architecture behavioral of entity Demux4x1bit [demux4x1bit_default]
+Compiling architecture behavioral of entity ControladorDemux [controladordemux_default]
+Compiling architecture behavioral of entity decoder7seg [decoder7seg_default]
+Compiling architecture behavioral of entity mux4x4 [mux4x4_default]
+Compiling architecture behavioral of entity reg4bits [reg4bits_default]
+Compiling architecture behavioral of entity RelogioDigitalFD [relogiodigitalfd_default]
+Compiling architecture behavior of entity tb_relogio_digital_fd
+Time Resolution for simulation is 1ps.
+Compiled 40 VHDL Units
+Built simulation executable /home/ise/Documents/RelogioDigitalProj/tb_relogio_digital_FD_isim_beh.exe
+Fuse Memory Usage: 112320 KB
+Fuse CPU Usage: 1940 ms
+GCC CPU Usage: 3120 ms

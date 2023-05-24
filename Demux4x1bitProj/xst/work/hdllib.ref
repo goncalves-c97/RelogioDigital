@@ -1,2 +1,4 @@
 EN demux4x1bit NULL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd sub00/vhpl00 1684460771
 AR demux4x1bit behavioral /home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd sub00/vhpl01 1684460772
+AR demux4x1bit_rest1 behavioral /home/ise/Documents/Demux4x1bitProj/Demux4x1bit_rest1.vhd sub00/vhpl03 1684892032
+EN demux4x1bit_rest1 NULL /home/ise/Documents/Demux4x1bitProj/Demux4x1bit_rest1.vhd sub00/vhpl02 1684892031

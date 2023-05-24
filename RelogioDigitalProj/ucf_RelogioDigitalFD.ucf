@@ -1,0 +1,43 @@
+#internal
+
+	#clock
+	NET "CLK" LOC = B8;
+
+	#display_supply
+	NET "DISP_SUPPLY<3>" LOC = K14;
+	NET "DISP_SUPPLY<2>" LOC = M13;
+	NET "DISP_SUPPLY<1>" LOC = J12;
+	NET "DISP_SUPPLY<0>" LOC = F12;
+
+	#display_signal
+	NET "DISPLAY<6>" LOC = L14;
+	NET "DISPLAY<5>" LOC = H12;
+	NET "DISPLAY<4>" LOC = N14;
+	NET "DISPLAY<3>" LOC = N11;
+	NET "DISPLAY<2>" LOC = P12;
+	NET "DISPLAY<1>" LOC = L13;
+	NET "DISPLAY<0>" LOC = M12;
+	NET "DOT"        LOC = N13;
+
+#end internal
+
+#user interface
+
+	#push buttons
+	NET "INCREMENT" LOC = G12;
+	NET "SHIFT" LOC = C11;
+	#NET "INPUT<2>" LOC = M4;
+	NET "RST" LOC = A7;
+
+	#switches
+	NET "MODE" LOC = P11;
+	#NET "EN2" LOC = L3;
+	#NET "EN1" LOC = K3;
+	#NET "SEL" LOC = B4;
+	#NET "CLR" LOC = G3;
+	#NET "DISP_CTRL<0>" LOC = F3;
+	#NET "DISP_CTRL<1>" LOC = E2;
+	#NET "DISP_CTRL<2>" LOC = N3;
+	#NET "DISP_CTRL<3>" LOC = N3;
+
+#end user interface

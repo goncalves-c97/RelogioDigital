@@ -1,0 +1,1 @@
+vhdtdtfi -prj RelogioDigitalProj -o /home/ise/Documents/RelogioDigitalProj/reg4bits.vhi -module reg4bits -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../RegisterProj/reg4bits.vhd 

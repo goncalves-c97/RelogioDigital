@@ -1,0 +1,4 @@
+AR mux4x4 behavioral /home/ise/Documents/MuxProj/mux4x4.vhd sub00/vhpl03 1684882441
+EN mux2x4 NULL /home/ise/Documents/MuxProj/mux2x4.vhd sub00/vhpl00 1678542211
+EN mux4x4 NULL /home/ise/Documents/MuxProj/mux4x4.vhd sub00/vhpl02 1684882440
+AR mux2x4 behavioral /home/ise/Documents/MuxProj/mux2x4.vhd sub00/vhpl01 1678542212

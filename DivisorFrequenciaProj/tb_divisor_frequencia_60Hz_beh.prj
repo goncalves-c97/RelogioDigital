@@ -1,0 +1,2 @@
+vhdl work "DivisorFrequencia_60Hz.vhd"
+vhdl work "tb_divisor_frequencia_60Hz.vhd"

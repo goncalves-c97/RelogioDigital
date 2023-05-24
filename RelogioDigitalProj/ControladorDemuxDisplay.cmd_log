@@ -1,0 +1,1 @@
+vhdtdtfi -prj RelogioDigitalProj -o /home/ise/Documents/RelogioDigitalProj/ControladorDemuxDisplay.vhi -module ControladorDemuxDisplay -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../Demux4x1bitProj/Demux4x1bit.vhd -lib work ../Contador0a3Proj/Contador0a3.vhd -lib work ../ControladorDemuxProj/ControladorDemuxDisplay.vhd 

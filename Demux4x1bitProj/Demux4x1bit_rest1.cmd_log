@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Documents/Demux4x1bitProj/Demux4x1bit_rest1.xst" -ofn "/home/ise/Documents/Demux4x1bitProj/Demux4x1bit_rest1.syr" 

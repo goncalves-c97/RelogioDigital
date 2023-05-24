@@ -1,0 +1,1 @@
+vhdtdtfi -prj RelogioDigitalProj -o /home/ise/Documents/RelogioDigitalProj/DivisorFrequencia_60Hz.vhi -module DivisorFrequencia_60Hz -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../DivisorFrequenciaProj/DivisorFrequencia_60Hz.vhd 

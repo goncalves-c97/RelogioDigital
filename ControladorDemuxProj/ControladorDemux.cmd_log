@@ -29,3 +29,5 @@ xst -intstyle ise -ifn "/home/ise/Documents/ControladorDemuxProj/ControladorDemu
 xst -intstyle ise -ifn "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.xst" -ofn "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.syr" 
 xst -intstyle ise -ifn "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.xst" -ofn "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.syr" 
 xst -intstyle ise -ifn "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.xst" -ofn "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.xst" -ofn "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.xst" -ofn "/home/ise/Documents/ControladorDemuxProj/ControladorDemux.syr" 

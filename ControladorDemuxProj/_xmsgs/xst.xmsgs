@@ -5,31 +5,47 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="Xst" num="1561" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/Documents/Demux4x1bitProj/Demux4x1bit.vhd</arg>&quot; line <arg fmt="%d" index="2">56</arg>: Mux is complete : default of case is discarded
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd</arg>&quot; line <arg fmt="%d" index="2">103</arg>: Mux is complete : default of case is discarded
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">unused_signal_3</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documents/ControladorDemuxProj/ControladorDemuxDisplay.vhd</arg>&quot; line <arg fmt="%d" index="2">125</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Demux4x1bit_rest1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">unused_signal_2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Documents/Contador0a3Proj/Contador0a3.vhd</arg>&quot; line <arg fmt="%d" index="2">39</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;LAP_ENABLE&gt;, &lt;adjust_debounce&gt;, &lt;internal_count&gt;</arg>
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">unused_signal</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2109" delta="new" >Contents of latch &lt;<arg fmt="%s" index="1">adjust_debounce</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">0</arg>.
 </msg>
 
-<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">LAP</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Contador0a3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">unused_signal_3</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_Contador0a3/internal_count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ControladorDemux</arg>&gt;.
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">unused_signal_2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_Contador0a3/internal_count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ControladorDemux</arg>&gt;.
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">unused_signal</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_Contador0a3/internal_count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ControladorDemux</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Contador0a3/LAP</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ControladorDemuxDisplay</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_Contador0a3/internal_count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ControladorDemux</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Contador0a3/internal_count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ControladorDemuxDisplay</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Contador0a3/internal_count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ControladorDemuxDisplay</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">OUT1</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">Demux4x1bit_rest1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">OUT2</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">Demux4x1bit_rest1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">OUT3</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">Demux4x1bit_rest1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">OUT4</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">Demux4x1bit_rest1</arg>&gt;. Possible simulation mismatch.
 </msg>
 
 </messages>

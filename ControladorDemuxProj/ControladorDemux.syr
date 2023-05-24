@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> 
 Reading design: ControladorDemux.prj
@@ -132,6 +132,8 @@ Analyzing Entity <ControladorDemux> in library <work> (Architecture <behavioral>
 Entity <ControladorDemux> analyzed. Unit <ControladorDemux> generated.
 
 Analyzing Entity <Contador0a3> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "/home/ise/Documents/Contador0a3Proj/Contador0a3.vhd" line 39: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <LAP_ENABLE>, <adjust_debounce>, <internal_count>
 Entity <Contador0a3> analyzed. Unit <Contador0a3> generated.
 
 Analyzing Entity <Demux4x1bit> in library <work> (Architecture <behavioral>).
@@ -147,11 +149,13 @@ Performing bidirectional port resolution...
 
 Synthesizing Unit <Contador0a3>.
     Related source file is "/home/ise/Documents/Contador0a3Proj/Contador0a3.vhd".
+WARNING:Xst:2109 - Contents of latch <adjust_debounce> never changes during circuit operation. The latch is removed and the signal is tied to value 0.
     Found 1-bit register for signal <LAP>.
-    Found 4-bit up counter for signal <internal_count>.
+    Found 4-bit register for signal <internal_count>.
+    Found 4-bit adder for signal <internal_count$addsub0000> created at line 52.
     Summary:
-	inferred   1 Counter(s).
-	inferred   1 D-type flip-flop(s).
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
 Unit <Contador0a3> synthesized.
 
 
@@ -178,10 +182,11 @@ Unit <ControladorDemux> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# Counters                                             : 1
- 4-bit up counter                                      : 1
-# Registers                                            : 1
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 2
  1-bit register                                        : 1
+ 4-bit register                                        : 1
 # Multiplexers                                         : 4
  1-bit 4-to-1 multiplexer                              : 4
 
@@ -196,10 +201,10 @@ Macro Statistics
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Counters                                             : 1
- 4-bit up counter                                      : 1
-# Registers                                            : 1
- Flip-Flops                                            : 1
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 5
+ Flip-Flops                                            : 5
 # Multiplexers                                         : 4
  1-bit 4-to-1 multiplexer                              : 4
 
@@ -208,13 +213,13 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1710 - FF/Latch <LAP> (without init value) has a constant value of 0 in block <Contador0a3>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <ControladorDemux> ...
-WARNING:Xst:2677 - Node <Inst_Contador0a3/internal_count_2> of sequential type is unconnected in block <ControladorDemux>.
+
+Optimizing unit <Contador0a3> ...
+WARNING:Xst:2677 - Node <Inst_Contador0a3/LAP> of sequential type is unconnected in block <ControladorDemux>.
 WARNING:Xst:2677 - Node <Inst_Contador0a3/internal_count_3> of sequential type is unconnected in block <ControladorDemux>.
 WARNING:Xst:2677 - Node <Inst_Contador0a3/internal_count_2> of sequential type is unconnected in block <ControladorDemux>.
-WARNING:Xst:2677 - Node <Inst_Contador0a3/internal_count_3> of sequential type is unconnected in block <ControladorDemux>.
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -342,7 +347,7 @@ Delay:               2.731ns (Levels of Logic = 1)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDC:C->Q              7   0.591   0.708  Inst_Contador0a3/internal_count_0 (Inst_Contador0a3/internal_count_0)
-     INV:I->O              1   0.704   0.420  Inst_Contador0a3/Mcount_internal_count_xor<0>11_INV_0 (Inst_Contador0a3/Mcount_internal_count)
+     INV:I->O              1   0.704   0.420  Inst_Contador0a3/internal_count_mux0000<3>1_INV_0 (Inst_Contador0a3/internal_count_mux0000<3>)
      FDC:D                     0.308          Inst_Contador0a3/internal_count_0
     ----------------------------------------
     Total                      2.731ns (1.603ns logic, 1.128ns route)
@@ -362,8 +367,8 @@ Offset:              5.870ns (Levels of Logic = 2)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDC:C->Q              7   0.591   0.883  Inst_Contador0a3/internal_count_0 (Inst_Contador0a3/internal_count_0)
-     LUT3:I0->O            1   0.704   0.420  Inst_Demux4x1bit/Mmux_OUT211 (OUT2_OBUF)
-     OBUF:I->O                 3.272          OUT2_OBUF (OUT2)
+     LUT3:I0->O            1   0.704   0.420  Inst_Demux4x1bit/Mmux_OUT411 (OUT4_OBUF)
+     OBUF:I->O                 3.272          OUT4_OBUF (OUT4)
     ----------------------------------------
     Total                      5.870ns (4.567ns logic, 1.303ns route)
                                        (77.8% logic, 22.2% route)
@@ -374,15 +379,15 @@ Timing constraint: Default path analysis
 -------------------------------------------------------------------------
 Delay:               6.376ns (Levels of Logic = 3)
   Source:            INPUT (PAD)
-  Destination:       OUT3 (PAD)
+  Destination:       OUT1 (PAD)
 
-  Data Path: INPUT to OUT3
+  Data Path: INPUT to OUT1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             4   1.218   0.762  INPUT_IBUF (INPUT_IBUF)
-     LUT3:I0->O            1   0.704   0.420  Inst_Demux4x1bit/Mmux_OUT411 (OUT4_OBUF)
-     OBUF:I->O                 3.272          OUT4_OBUF (OUT4)
+     LUT3:I0->O            1   0.704   0.420  Inst_Demux4x1bit/Mmux_OUT111 (OUT1_OBUF)
+     OBUF:I->O                 3.272          OUT1_OBUF (OUT1)
     ----------------------------------------
     Total                      6.376ns (5.194ns logic, 1.182ns route)
                                        (81.5% logic, 18.5% route)
@@ -390,13 +395,13 @@ Delay:               6.376ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 9.14 secs
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 11.57 secs
  
 --> 
 
 
-Total memory usage is 608228 kilobytes
+Total memory usage is 608448 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    8 (   0 filtered)

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia_10Hz.xst" -ofn "/home/ise/Documents/DivisorFrequenciaProj/DivisorFrequencia_10Hz.syr" 

@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   02:19:25 05/19/2023
+-- Create Date:   01:26:58 05/24/2023
 -- Design Name:   
 -- Module Name:   /home/ise/Documents/ControladorDemuxProj/tb_controlador_demux.vhd
 -- Project Name:  ControladorDemuxProj
@@ -44,7 +44,7 @@ ARCHITECTURE behavior OF tb_controlador_demux IS
          INPUT : IN  std_logic;
          SHIFT : IN  std_logic;
          RST : IN  std_logic;
-			COUNT : out STD_LOGIC_VECTOR(1 downto 0);
+         COUNT : OUT  std_logic_vector(1 downto 0);
          OUT1 : OUT  std_logic;
          OUT2 : OUT  std_logic;
          OUT3 : OUT  std_logic;
@@ -59,7 +59,7 @@ ARCHITECTURE behavior OF tb_controlador_demux IS
    signal RST : std_logic := '0';
 
  	--Outputs
-	signal COUNT : STD_LOGIC_VECTOR(1 downto 0);
+   signal COUNT : std_logic_vector(1 downto 0);
    signal OUT1 : std_logic;
    signal OUT2 : std_logic;
    signal OUT3 : std_logic;
@@ -74,19 +74,17 @@ BEGIN
           INPUT => INPUT,
           SHIFT => SHIFT,
           RST => RST,
-			 COUNT => COUNT,
+          COUNT => COUNT,
           OUT1 => OUT1,
           OUT2 => OUT2,
           OUT3 => OUT3,
           OUT4 => OUT4
-        );
- 
+        ); 
 
    -- Stimulus process
    stim_proc: process
    begin		
-	
-		-- Oscilação da entrada
+      -- Oscilação da entrada
       INPUT <= '1';
       wait for 10 ns;
 		INPUT <= '0';
@@ -106,7 +104,6 @@ BEGIN
 		
 		SHIFT <= '0';
 		wait for 10 ns;
-		
    end process;
 
 END;
